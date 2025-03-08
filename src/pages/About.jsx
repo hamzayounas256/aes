@@ -11,9 +11,9 @@ export default function About() {
 	document.title = "AES | About us";
 
 	return (
-		<div className="pt-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
+		<div className="py-16 md:py-48 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
 			{/* Page Header */}
-			<section className="py-12 md:py-48 relative">
+			<section className="relative">
 				<div className="absolute inset-0 w-full h-full">
 					<img
 						src={aboutImage}

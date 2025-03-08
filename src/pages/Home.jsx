@@ -7,7 +7,7 @@ export default function Home() {
 	document.title = "AES | Home";
 
 	return (
-		<div className="py-12 md:py-16">
+		<div className="py-16 md:py-16">
 			{/* Hero Section with Background Image */}
 			<section className="relative h-96 md:h-screen max-h-[600px] w-full">
 				{/* Background Image */}
