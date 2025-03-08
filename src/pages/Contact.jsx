@@ -153,7 +153,7 @@ export default function Contact() {
 						<h2 className="text-2xl font-semibold mb-4">Office Location</h2>
 						<div className="aspect-w-16 aspect-h-9 mb-4">
 							{/* Replace with an actual map implementation */}
-							<div className="w-full h-64 bg-gray-200 rounded-md flex items-center justify-center">
+							{/* <div className="w-full h-64 bg-gray-200 rounded-md flex items-center justify-center">
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212645.45394042215!2d72.93972878929586!3d33.616050235148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1646831800000!5m2!1sen!2s"
 									width="100%"
@@ -164,7 +164,7 @@ export default function Contact() {
 									className="rounded-md"
 									title="AES Headquarters location"
 								></iframe>
-							</div>
+							</div> */}
 						</div>
 						<p className="text-gray-700">
 							House no 22, Street no 152, <br />
@@ -229,13 +229,13 @@ export default function Contact() {
 								</a>
 							</div>
 
-							{/* <div className="mt-4 pt-4 border-t border-gray-200">
+							<div className="mt-4 pt-4 border-t border-gray-200">
 								<h3 className="font-medium text-gray-800">Office Hours</h3>
 								<p className="text-gray-700">
 									Monday to Friday: 9:00 AM - 5:00 PM
 								</p>
 								<p className="text-gray-700">Saturday: 10:00 AM - 2:00 PM</p>
-							</div> */}
+							</div>
 						</div>
 					</div>
 				</div>

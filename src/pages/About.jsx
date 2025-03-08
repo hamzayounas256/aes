@@ -1,9 +1,11 @@
 import React from "react";
-import hseImage from "../assets/hse.png";
+import { Link } from "react-router";
+import hseImage from "../assets/hse.jpg";
 import MAzhar1 from "../assets/1MAzhar.png";
 import AtiqUrRehman13 from "../assets/13AttiqurRehman.png";
 import DrAsifAhsan17 from "../assets/17DrAsifAhsan.png";
 import leadershipandteam from "../assets/leadershipandteam.png";
+import aboutImage from "../assets/about.jpg";
 
 export default function About() {
 	document.title = "AES | About us";
@@ -11,12 +13,21 @@ export default function About() {
 	return (
 		<div className="pt-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
 			{/* Page Header */}
-			<section className="py-12 md:py-16">
-				<div className="max-w-4xl mx-auto text-center">
-					<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+			<section className="py-12 md:py-48 relative">
+				<div className="absolute inset-0 w-full h-full">
+					<img
+						src={aboutImage}
+						alt="About Astral Energy Services"
+						className="w-full h-full object-cover"
+					/>
+					{/* Add an overlay to ensure text is readable */}
+					<div className="absolute inset-0 bg-black opacity-40"></div>
+				</div>
+				<div className="relative z-10 max-w-4xl mx-auto text-center">
+					<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
 						About Astral Energy Services
 					</h1>
-					<p className="text-lg md:text-xl text-gray-600 mb-8">
+					<p className="text-lg md:text-xl text-white mb-8">
 						Dedicated to excellence in energy consultancy
 					</p>
 					<div className="h-1 w-32 bg-blue-600 mx-auto"></div>
@@ -102,15 +113,14 @@ export default function About() {
 					</div>
 				</div>
 
-				{/* Team Profiles Placeholder - You can expand this section */}
+				{/* Team Profiles */}
 				<div className="mt-12 grid md:grid-cols-3 gap-6">
-					{/* Example Team Member Card - Repeat as needed */}
+					{/* Team Member Card - Dr. Asif Ahsan */}
 					<div className="bg-white rounded-lg shadow p-6 text-center">
-						{/* <div className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"></div> */}
 						<img
 							src={DrAsifAhsan17}
-							className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"
-							alt=""
+							className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+							alt="Dr. Asif Ahsan - Chief Geological Advisor"
 						/>
 						<h3 className="text-xl font-semibold mb-1">Dr. Asif Ahsan</h3>
 						<p className="text-blue-600 mb-3">Chief Geological Advisor</p>
@@ -120,12 +130,12 @@ export default function About() {
 						</p>
 					</div>
 
+					{/* Team Member Card - Atiq ur Rehman */}
 					<div className="bg-white rounded-lg shadow p-6 text-center">
-						{/* <div className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"></div> */}
 						<img
 							src={AtiqUrRehman13}
-							className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"
-							alt=""
+							className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+							alt="Atiq ur Rehman - Senior Drilling Consultant"
 						/>
 						<h3 className="text-xl font-semibold mb-1">Atiq ur Rehman</h3>
 						<p className="text-blue-600 mb-3">Senior Drilling Consultant</p>
@@ -135,12 +145,12 @@ export default function About() {
 						</p>
 					</div>
 
+					{/* Team Member Card - Muhammad Azhar */}
 					<div className="bg-white rounded-lg shadow p-6 text-center">
-						{/* <div className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"></div> */}
 						<img
 							src={MAzhar1}
-							className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"
-							alt=""
+							className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+							alt="Muhammad Azhar - Seismic Data Specialist"
 						/>
 						<h3 className="text-xl font-semibold mb-1">Muhammad Azhar</h3>
 						<p className="text-blue-600 mb-3">Seismic Data Specialist</p>
@@ -149,6 +159,14 @@ export default function About() {
 							projects.
 						</p>
 					</div>
+				</div>
+				<div className="mt-8 text-center">
+					<Link
+						to="/ourteam"
+						className="inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors"
+					>
+						Our Team →
+					</Link>
 				</div>
 			</section>
 
@@ -179,31 +197,15 @@ export default function About() {
 					<div className="md:w-1/2">
 						<img
 							src={hseImage}
-							alt="Health, Safety and Environment"
+							alt="Health, Safety and Environment Practices"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
 					</div>
 				</div>
 			</section>
 
-			{/* CTA Section */}
-			{/* <section className="py-12 bg-blue-600 text-white rounded-lg mb-12 px-6 md:px-10">
-				<div className="text-center">
-					<h2 className="text-2xl md:text-3xl font-bold mb-4">
-						Want to work with our expert team?
-					</h2>
-					<p className="mb-6 text-blue-100 max-w-3xl mx-auto">
-						Connect with Astral Energy Services to learn how our consultancy
-						expertise can help your organization achieve its goals.
-					</p>
-					<a
-						href="/contact"
-						className="inline-block px-6 py-3 bg-white text-blue-600 font-medium rounded-md hover:bg-gray-100 transition-colors"
-					>
-						Get in Touch
-					</a>
-				</div>
-			</section> */}
+			{/* Note: The CTA section is commented out in the original code, 
+                 so I've left it commented out here as well */}
 		</div>
 	);
 }

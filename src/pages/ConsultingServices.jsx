@@ -3,6 +3,7 @@ import React from "react";
 import consultingservice1 from "../assets/consultingservice1.png";
 import consultingservice2 from "../assets/consultingservice2.png";
 import consultingservice3 from "../assets/consultingservice3.png";
+import consultingImage from "../assets/consultingservices.jpg";
 // import drillingImage from "../assets/drilling-advisory.jpg";
 // import geologicalImage from "../assets/geological-studies.jpg";
 
@@ -12,12 +13,21 @@ export default function ConsultingServices() {
 	return (
 		<div className="pt-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
 			{/* Page Header */}
-			<section className="py-12 md:py-16">
-				<div className="max-w-4xl mx-auto text-center">
-					<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+			<section className="py-12 md:py-48 relative">
+				<div className="absolute inset-0 w-full h-full">
+					<img
+						src={consultingImage}
+						alt="About Astral Energy Services"
+						className="w-full h-full object-cover"
+					/>
+					{/* Add an overlay to ensure text is readable */}
+					<div className="absolute inset-0 bg-black opacity-40"></div>
+				</div>
+				<div className="relative z-10 max-w-4xl mx-auto text-center">
+					<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
 						Our Consulting Services
 					</h1>
-					<p className="text-lg md:text-xl text-gray-600 mb-8">
+					<p className="text-lg md:text-xl text-white mb-8">
 						Expert solutions tailored to the oil, gas, and mineral industries
 					</p>
 					<div className="h-1 w-32 bg-blue-600 mx-auto"></div>

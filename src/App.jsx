@@ -6,6 +6,7 @@ import ResearchInsight from "./pages/ResearchInsight";
 import ConsultingServices from "./pages/ConsultingServices";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import OurTeam from "./pages/OurTeam";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Route path="/about" element={<About />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/researchinsight" element={<ResearchInsight />} />
+				<Route path="/ourteam" element={<OurTeam />} />
 				<Route path="/consultingservices" element={<ConsultingServices />} />
 			</Routes>
 			<Footer />

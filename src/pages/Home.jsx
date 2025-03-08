@@ -132,7 +132,7 @@ export default function Home() {
 								"AES's strategic consulting helped us streamline operations and
 								identify new exploration opportunities."
 							</p>
-							<p className="text-gray-800 font-semibold">— Client A</p>
+							<p className="text-gray-800 font-semibold">— Hamza Younas</p>
 						</div>
 
 						{/* Testimonial 2 */}
@@ -141,7 +141,9 @@ export default function Home() {
 								"Their geochemical insights provided the clarity we needed to
 								optimize our resource extraction strategy."
 							</p>
-							<p className="text-gray-800 font-semibold">— Client B</p>
+							<p className="text-gray-800 font-semibold">
+								— Subtain Muhammad Khan
+							</p>
 						</div>
 					</div>
 				</section>
