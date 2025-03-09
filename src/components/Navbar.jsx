@@ -18,7 +18,7 @@ export default function Navbar() {
 		<nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
 			<div className="flex items-center justify-between px-6 py-3 max-w-6xl mx-auto">
 				<Link to="/" className="flex items-center">
-					<img src={logo} className="w-16 h-auto" alt="Logo" />
+					<img src={logo} className="w-28 h-auto" alt="Logo" />
 				</Link>
 
 				{/* Desktop Menu */}
