@@ -1,15 +1,9 @@
 import React from "react";
-// Import placeholder images - replace with your actual image paths
-// import consultingservice1 from "../assets/consultingservice1.png";
-// import consultingservice2 from "../assets/consultingservice2.png";
-// import consultingservice3 from "../assets/consultingservice3.png";
+import consultingImage from "../assets/consultingservices.jpg";
+import seismicData from "../assets/seismic_data.jpg";
 import drillingAdvisory from "../assets/drilling_advisory.jpg";
 import geologicalReservoir from "../assets/geological_reservoir.png";
-import seismicData from "../assets/seismic_data.jpg";
-import consultingImage from "../assets/consultingservices.jpg";
 import { Link } from "react-router";
-// import drillingImage from "../assets/drilling-advisory.jpg";
-// import geologicalImage from "../assets/geological-studies.jpg";
 
 export default function ConsultingServices() {
 	document.title = "AES | Consulting Services";
@@ -29,7 +23,7 @@ export default function ConsultingServices() {
 				</div>
 				<div className="relative z-10 max-w-4xl mx-auto text-center">
 					<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-						Our Consulting Services
+						Consulting Services
 					</h1>
 					<p className="text-lg md:text-xl text-white mb-8">
 						Expert solutions tailored to the oil, gas, and mineral industries
@@ -42,11 +36,11 @@ export default function ConsultingServices() {
 			<section className="py-10 mb-12">
 				<div className="bg-gray-50 rounded-lg shadow-sm px-6 md:px-10 py-8">
 					<p className="text-gray-700 leading-relaxed text-lg">
-						At Astral Energy Services, we provide specialized consulting across
-						key areas of the energy sector. Our team of experts delivers
-						data-driven insights, strategic recommendations, and technical
-						expertise to help our clients optimize their operations and achieve
-						sustainable growth.
+						AES offers a seasoned team of experts. We aim to collaborate closely
+						with clients, offering superior field expertise and
+						consultancy/Studies services. Our personnel have extensive
+						experience in Consultancy/Studies roles across diverse projects for
+						national and international oil, Gas and Mineral companies.
 					</p>
 				</div>
 			</section>
@@ -63,63 +57,20 @@ export default function ConsultingServices() {
 					</div>
 					<div className="lg:w-3/5">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-							Seismic Data Consulting
+							Consultancy Services
 						</h2>
 						<div className="space-y-6">
 							<div>
 								<h3 className="text-xl font-medium text-blue-600 mb-3">
-									Data Acquisition & Processing
+									Consultancy Services Include:
 								</h3>
-								<p className="text-gray-700">
-									Our experts provide comprehensive guidance on 2D/3D seismic
-									data acquisition planning, field operations oversight, and
-									processing quality control. We ensure that your seismic
-									programs deliver high-quality data that meets your exploration
-									objectives.
-								</p>
-							</div>
-
-							<div>
-								<h3 className="text-xl font-medium text-blue-600 mb-3">
-									Interpretation Strategies
-								</h3>
-								<p className="text-gray-700">
-									We develop customized interpretation workflows and
-									methodologies tailored to your geological setting. Our
-									approaches integrate structural and stratigraphic analyses to
-									identify prospective zones and reduce exploration uncertainty.
-								</p>
-							</div>
-
-							<div>
-								<h3 className="text-xl font-medium text-blue-600 mb-3">
-									Risk Assessment
-								</h3>
-								<p className="text-gray-700">
-									Our risk assessment services evaluate geological, technical,
-									and operational factors that might impact exploration success.
-									We provide detailed recommendations to mitigate risks and
-									optimize resource allocation for exploration projects.
-								</p>
+								<ul className="text-gray-700 space-y-2 pl-5">
+									<li>• 2D/3D Seismic Data Acquisition QC</li>
+									<li>• 2D/3D Seismic Data Processing QC</li>
+									<li>• Gravity/Magnetic QC</li>
+								</ul>
 							</div>
 						</div>
-
-						{/* Case Study Box */}
-						{/* <div className="mt-8 bg-blue-50 border border-blue-100 rounded-lg p-6">
-							<h4 className="text-lg font-semibold text-gray-800 mb-2">
-								Case Study: Gulf Basin Exploration
-							</h4>
-							<p className="text-gray-700 mb-4">
-								AES provided comprehensive seismic interpretation for a
-								challenging offshore prospect, resulting in a 40% reduction in
-								exploration uncertainty and successful discovery of hydrocarbons
-								in a previously overlooked formation.
-							</p>
-							<p className="text-blue-700 font-medium">
-								Impact: $12M in cost savings and 30% increase in recoverable
-								reserves estimates.
-							</p>
-						</div> */}
 					</div>
 				</div>
 			</section>
@@ -130,69 +81,26 @@ export default function ConsultingServices() {
 					<div className="lg:w-2/5">
 						<img
 							src={drillingAdvisory}
-							alt="Drilling Advisory Services"
+							alt="Drilling Services"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
 					</div>
 					<div className="lg:w-3/5">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-							Drilling Advisory
+							Drilling Services
 						</h2>
 						<div className="space-y-6">
 							<div>
 								<h3 className="text-xl font-medium text-blue-600 mb-3">
-									Strategic Planning
+									Drilling Services Include:
 								</h3>
-								<p className="text-gray-700">
-									Our drilling experts develop comprehensive strategies for
-									drilling operations, from well site evaluations to mud system
-									optimization. We analyze formation characteristics, pressure
-									regimes, and technical requirements to design efficient
-									drilling programs.
-								</p>
-							</div>
-
-							<div>
-								<h3 className="text-xl font-medium text-blue-600 mb-3">
-									Operational Efficiency
-								</h3>
-								<p className="text-gray-700">
-									We identify opportunities to enhance drilling performance
-									through advanced techniques, equipment selection, and
-									procedural optimization. Our recommendations focus on reducing
-									non-productive time while maintaining the highest safety
-									standards.
-								</p>
-							</div>
-
-							<div>
-								<h3 className="text-xl font-medium text-blue-600 mb-3">
-									Regulatory Compliance
-								</h3>
-								<p className="text-gray-700">
-									Our compliance consulting ensures adherence to local and
-									international drilling regulations. We provide guidance on
-									permitting requirements, environmental standards, and safety
-									protocols to mitigate legal and operational risks.
-								</p>
+								<ul className="text-gray-700 space-y-2 pl-5">
+									<li>• Wells Site Geologist</li>
+									<li>• Company Man</li>
+									<li>• Mud Engineer</li>
+								</ul>
 							</div>
 						</div>
-
-						{/* Case Study Box */}
-						{/* <div className="mt-8 bg-blue-50 border border-blue-100 rounded-lg p-6">
-							<h4 className="text-lg font-semibold text-gray-800 mb-2">
-								Case Study: Complex Formation Drilling
-							</h4>
-							<p className="text-gray-700 mb-4">
-								AES advised on a challenging HPHT well through multiple unstable
-								formations, implementing custom mud formulations and casing
-								design that prevented common complications.
-							</p>
-							<p className="text-blue-700 font-medium">
-								Impact: 15 days reduction in drilling time and zero safety
-								incidents across the project.
-							</p>
-						</div> */}
 					</div>
 				</div>
 			</section>
@@ -203,13 +111,13 @@ export default function ConsultingServices() {
 					<div className="lg:w-2/5">
 						<img
 							src={geologicalReservoir}
-							alt="Geological and Reservoir Studies"
+							alt="Geological and Studies Services"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
 					</div>
 					<div className="lg:w-3/5">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-							Geological Studies
+							Geological Studies Services
 						</h2>
 						<div className="text-gray-700 space-y-4">
 							<h3 className="text-xl font-medium text-blue-600 mb-2">
@@ -269,7 +177,7 @@ export default function ConsultingServices() {
 									</p>
 									<p>
 										i. Finding additional value from produced formation waters
-										in your wellshow geochemistry can help
+										in your wells-how geochemistry can help
 									</p>
 									<p>
 										j. Gas composition, isotope geochemistry and its application
@@ -302,22 +210,6 @@ export default function ConsultingServices() {
 								</div>
 							</div>
 						</div>
-
-						{/* Case Study Box */}
-						{/* <div className="mt-8 bg-blue-50 border border-blue-100 rounded-lg p-6">
-							<h4 className="text-lg font-semibold text-gray-800 mb-2">
-								Case Study: Mature Field Revitalization
-							</h4>
-							<p className="text-gray-700 mb-4">
-								AES conducted a comprehensive reservoir study for a declining
-								field, identifying bypassed pay zones and recommending targeted
-								infill drilling and enhanced recovery techniques.
-							</p>
-							<p className="text-blue-700 font-medium">
-								Impact: Extended field life by 12 years and increased
-								recoverable reserves by 18 million barrels.
-							</p>
-						</div> */}
 					</div>
 				</div>
 			</section>
@@ -329,9 +221,8 @@ export default function ConsultingServices() {
 						Ready to optimize your energy operations?
 					</h2>
 					<p className="mb-6 text-blue-100 max-w-3xl mx-auto">
-						Contact our team to discuss how our consulting services can address
-						your specific challenges and help you achieve your business
-						objectives.
+						Contact our team to discuss how our services can address your
+						specific challenges and help you achieve your business objectives.
 					</p>
 					<div className="flex flex-col sm:flex-row justify-center gap-4">
 						<Link

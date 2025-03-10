@@ -2,6 +2,9 @@ import React from "react";
 // Import a placeholder image - replace with your actual hero image path
 import heroImage from "../assets/hero.png";
 import { Link } from "react-router";
+// Import certificate images - adjust paths as needed
+import incorporationCertificate from "../assets/IncorporationLetter.jpg"; // Image 1
+import fbrCertificate from "../assets/FBR.jpg"; // Image 2
 
 export default function Home() {
 	document.title = "AES | Home";
@@ -120,7 +123,7 @@ export default function Home() {
 				</section>
 
 				{/* Testimonials Section */}
-				<section className=" mb-12">
+				<section className="mb-12">
 					<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center">
 						Client Testimonials
 					</h2>
@@ -148,25 +151,62 @@ export default function Home() {
 					</div>
 				</section>
 
+				{/* Certificates Section - NEW */}
+				<section className="py-10 mb-12">
+					<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center">
+						Our Certifications
+					</h2>
+
+					<div className="grid md:grid-cols-2 gap-8">
+						{/* Incorporation Certificate */}
+						<div className="bg-white rounded-lg shadow overflow-hidden">
+							<h3 className="text-xl font-semibold text-gray-800 p-4 bg-gray-50 border-b">
+								Certificate of Incorporation
+							</h3>
+							<div className="p-4">
+								<img
+									src={incorporationCertificate}
+									alt="SECP Certificate of Incorporation for Astral Energy Services"
+									className="w-full h-auto rounded"
+								/>
+							</div>
+						</div>
+
+						{/* FBR Certificate */}
+						<div className="bg-white rounded-lg shadow overflow-hidden">
+							<h3 className="text-xl font-semibold text-gray-800 p-4 bg-gray-50 border-b">
+								Taxpayer Registration Certificate
+							</h3>
+							<div className="p-4">
+								<img
+									src={fbrCertificate}
+									alt="FBR Taxpayer Registration Certificate for Astral Energy Services"
+									className="w-full h-auto rounded"
+								/>
+							</div>
+						</div>
+					</div>
+				</section>
+
 				{/* CTA Section */}
 				{/* <section className="py-12 bg-blue-600 text-white rounded-lg mb-12 px-6 md:px-10">
-					<div className="text-center">
-						<h2 className="text-2xl md:text-3xl font-bold mb-4">
-							Ready to optimize your energy operations?
-						</h2>
-						<p className="mb-6 text-blue-100 max-w-3xl mx-auto">
-							Partner with AES to leverage our expertise in the oil, gas, and
-							mineral industries. Let us help you make data-driven decisions for
-							sustainable growth.
-						</p>
-						<a
-							href="/contact"
-							className="inline-block px-6 py-3 bg-white text-blue-600 font-medium rounded-md hover:bg-gray-100 transition-colors"
-						>
-							Contact Us Today
-						</a>
-					</div>
-				</section> */}
+          <div className="text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              Ready to optimize your energy operations?
+            </h2>
+            <p className="mb-6 text-blue-100 max-w-3xl mx-auto">
+              Partner with AES to leverage our expertise in the oil, gas, and
+              mineral industries. Let us help you make data-driven decisions for
+              sustainable growth.
+            </p>
+            
+              href="/contact"
+              className="inline-block px-6 py-3 bg-white text-blue-600 font-medium rounded-md hover:bg-gray-100 transition-colors"
+            >
+              Contact Us Today
+            </a>
+          </div>
+        </section> */}
 			</div>
 		</div>
 	);
