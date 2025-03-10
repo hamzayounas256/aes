@@ -1,9 +1,13 @@
 import React from "react";
 // Import placeholder images - replace with your actual image paths
-import consultingservice1 from "../assets/consultingservice1.png";
-import consultingservice2 from "../assets/consultingservice2.png";
-import consultingservice3 from "../assets/consultingservice3.png";
+// import consultingservice1 from "../assets/consultingservice1.png";
+// import consultingservice2 from "../assets/consultingservice2.png";
+// import consultingservice3 from "../assets/consultingservice3.png";
+import drillingAdvisory from "../assets/drilling_advisory.jpg";
+import geologicalReservoir from "../assets/geological_reservoir.png";
+import seismicData from "../assets/seismic_data.jpg";
 import consultingImage from "../assets/consultingservices.jpg";
+import { Link } from "react-router";
 // import drillingImage from "../assets/drilling-advisory.jpg";
 // import geologicalImage from "../assets/geological-studies.jpg";
 
@@ -52,7 +56,7 @@ export default function ConsultingServices() {
 				<div className="flex flex-col lg:flex-row gap-8">
 					<div className="lg:w-2/5">
 						<img
-							src={consultingservice1}
+							src={seismicData}
 							alt="Seismic Data Consulting"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
@@ -125,7 +129,7 @@ export default function ConsultingServices() {
 				<div className="flex flex-col lg:flex-row-reverse gap-8">
 					<div className="lg:w-2/5">
 						<img
-							src={consultingservice2}
+							src={drillingAdvisory}
 							alt="Drilling Advisory Services"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
@@ -198,52 +202,104 @@ export default function ConsultingServices() {
 				<div className="flex flex-col lg:flex-row gap-8">
 					<div className="lg:w-2/5">
 						<img
-							src={consultingservice3}
+							src={geologicalReservoir}
 							alt="Geological and Reservoir Studies"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
 					</div>
 					<div className="lg:w-3/5">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-							Geological & Reservoir Studies
+							Geological Studies
 						</h2>
-						<div className="space-y-6">
-							<div>
-								<h3 className="text-xl font-medium text-blue-600 mb-3">
-									Basin Modeling
-								</h3>
-								<p className="text-gray-700">
-									Our team conducts comprehensive basin modeling to evaluate
-									petroleum systems, source rock maturity, and migration
-									pathways. We integrate multiple data sources to build accurate
-									models that guide exploration and development strategies.
-								</p>
-							</div>
+						<div className="text-gray-700 space-y-4">
+							<h3 className="text-xl font-medium text-blue-600 mb-2">
+								Studies Services Include:
+							</h3>
 
-							<div>
-								<h3 className="text-xl font-medium text-blue-600 mb-3">
-									Geochemistry Assessments
-								</h3>
-								<p className="text-gray-700">
-									We perform detailed geochemical analyses to characterize
-									hydrocarbon properties, determine fluid compatibility, and
-									identify production challenges. Our assessments provide
-									critical insights for reservoir management and production
-									optimization.
-								</p>
-							</div>
+							<div className="pl-5">
+								<p className="font-medium mb-1">• Field Geology</p>
 
-							<div>
-								<h3 className="text-xl font-medium text-blue-600 mb-3">
-									Feasibility Studies
-								</h3>
-								<p className="text-gray-700">
-									Our feasibility studies and bankable reports provide
-									comprehensive technical and economic evaluations to support
-									investment decisions. We deliver robust reserve estimations,
-									development scenarios, and risk-weighted economic analyses for
-									resource projects.
+								<p className="font-medium mb-1">
+									• Mineral Exploration (CRIRSCO Code)
 								</p>
+								<div className="pl-6 space-y-1">
+									<p>a. Scoping Study</p>
+									<p>b. Field Geology</p>
+									<p>c. Geophysical Study (Magnetic, IP, Resistivity)</p>
+									<p>d. Core Cutting</p>
+									<p>e. Pre-Feasibility Study</p>
+									<p>f. Reserve Estimation and Certification</p>
+									<p>g. Bankable documents</p>
+								</div>
+
+								<p className="font-medium mt-3 mb-1">
+									• Structural geology, Structural forward modeling,
+									Restoration, and petroleum systems modeling
+								</p>
+
+								<p className="font-medium mt-3 mb-1">
+									• Geochemistry/Basin Modeling
+								</p>
+								<div className="pl-6 space-y-1">
+									<p>
+										a. Geochemistry Assessment of Asphaltene and prediction of
+										its distribution in Oil and Gas Reservoirs
+									</p>
+									<p>b. Unconventional and Conventional Resource Evaluation</p>
+									<p>
+										c. Assessment of leaked annulus fluids and genetic
+										correlation to their source reservoirs
+									</p>
+									<p>
+										d. Monitoring and assessment of CO2 and Water breakthrough
+										in WAG Projects
+									</p>
+									<p>e. Geochemistry Based methods in Exploration</p>
+									<p>
+										f. Assessment of oil and gas field vertical and lateral
+										compartments using fluid geochemistry
+									</p>
+									<p>
+										g. Core extracted fluids, oil, gas and water and hydrocarbon
+										resource potential evaluation
+									</p>
+									<p>
+										h. Understanding hydrocarbon charge history, basin modeling
+										and basin analysis using fluid inclusion studies
+									</p>
+									<p>
+										i. Finding additional value from produced formation waters
+										in your wellshow geochemistry can help
+									</p>
+									<p>
+										j. Gas composition, isotope geochemistry and its application
+										in reservoir studies
+									</p>
+									<p>
+										k. Geochemistry based assessment of H2S in reservoirs and
+										its distribution prediction
+									</p>
+									<p>
+										l. Geochemistry can help to select best sites and
+										surveillance for underground carbon storage
+									</p>
+									<p>
+										m. Biomarkers and their application in exploration and
+										production
+									</p>
+									<p>
+										n. Geochemistry labs, instruments, equipment and data
+										analytics
+									</p>
+									<p>
+										o. Assessment of controls on reservoir property distribution
+										and prediction
+									</p>
+									<p>
+										p. Exploration and production portfolio assessment and its
+										evaluation
+									</p>
+								</div>
 							</div>
 						</div>
 
@@ -267,7 +323,7 @@ export default function ConsultingServices() {
 			</section>
 
 			{/* CTA Section */}
-			{/* <section className="py-12 bg-blue-600 text-white rounded-lg mb-12 px-6 md:px-10">
+			<section className="py-12 bg-blue-600 text-white rounded-lg mb-12 px-6 md:px-10">
 				<div className="text-center">
 					<h2 className="text-2xl md:text-3xl font-bold mb-4">
 						Ready to optimize your energy operations?
@@ -278,21 +334,21 @@ export default function ConsultingServices() {
 						objectives.
 					</p>
 					<div className="flex flex-col sm:flex-row justify-center gap-4">
-						<a
-							href="/contact"
+						<Link
+							to="/contact"
 							className="inline-block px-6 py-3 bg-white text-blue-600 font-medium rounded-md hover:bg-gray-100 transition-colors"
 						>
 							Request a Consultation
-						</a>
-						<a
-							href="/case-studies"
+						</Link>
+						<Link
+							to="/researchinsight"
 							className="inline-block px-6 py-3 bg-transparent border border-white text-white font-medium rounded-md hover:bg-blue-700 transition-colors"
 						>
 							View All Case Studies
-						</a>
+						</Link>
 					</div>
 				</div>
-			</section> */}
+			</section>
 		</div>
 	);
 }
