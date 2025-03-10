@@ -105,7 +105,7 @@ export default function ConsultingServices() {
 						</div>
 
 						{/* Case Study Box */}
-						<div className="mt-8 bg-blue-50 border border-blue-100 rounded-lg p-6">
+						{/* <div className="mt-8 bg-blue-50 border border-blue-100 rounded-lg p-6">
 							<h4 className="text-lg font-semibold text-gray-800 mb-2">
 								Case Study: Gulf Basin Exploration
 							</h4>
@@ -119,7 +119,7 @@ export default function ConsultingServices() {
 								Impact: $12M in cost savings and 30% increase in recoverable
 								reserves estimates.
 							</p>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</section>
@@ -179,7 +179,7 @@ export default function ConsultingServices() {
 						</div>
 
 						{/* Case Study Box */}
-						<div className="mt-8 bg-blue-50 border border-blue-100 rounded-lg p-6">
+						{/* <div className="mt-8 bg-blue-50 border border-blue-100 rounded-lg p-6">
 							<h4 className="text-lg font-semibold text-gray-800 mb-2">
 								Case Study: Complex Formation Drilling
 							</h4>
@@ -192,7 +192,7 @@ export default function ConsultingServices() {
 								Impact: 15 days reduction in drilling time and zero safety
 								incidents across the project.
 							</p>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</section>
@@ -304,7 +304,7 @@ export default function ConsultingServices() {
 						</div>
 
 						{/* Case Study Box */}
-						<div className="mt-8 bg-blue-50 border border-blue-100 rounded-lg p-6">
+						{/* <div className="mt-8 bg-blue-50 border border-blue-100 rounded-lg p-6">
 							<h4 className="text-lg font-semibold text-gray-800 mb-2">
 								Case Study: Mature Field Revitalization
 							</h4>
@@ -317,7 +317,7 @@ export default function ConsultingServices() {
 								Impact: Extended field life by 12 years and increased
 								recoverable reserves by 18 million barrels.
 							</p>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</section>
