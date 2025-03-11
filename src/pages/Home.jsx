@@ -1,6 +1,7 @@
 import React from "react";
 // Import a placeholder image - replace with your actual hero image path
 import heroImage from "../assets/hero.png";
+// import user from "../assets/user.png";
 import { Link } from "react-router";
 // Import certificate images - adjust paths as needed
 import incorporationCertificate from "../assets/IncorporationLetter.jpg"; // Image 1
@@ -130,23 +131,91 @@ export default function Home() {
 
 					<div className="grid md:grid-cols-2 gap-8">
 						{/* Testimonial 1 */}
-						<div className="bg-white p-6 rounded-lg shadow border border-gray-100">
-							<p className="text-gray-700 italic mb-4 text-lg">
+						<div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 max-w-lg mx-auto transition-all duration-300 hover:shadow-xl">
+							<div className="flex mb-6">
+								<div className="flex-shrink-0 mr-4">
+									<div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
+										HY
+									</div>
+								</div>
+								<div>
+									<p className="text-gray-800 font-semibold text-lg">
+										Hamza Younas
+									</p>
+									<p className="text-gray-500 text-sm">
+										CEO, TechVentures Inc.
+									</p>
+								</div>
+							</div>
+
+							<p className="text-gray-700 italic mb-6 text-xl leading-relaxed">
 								"AES's strategic consulting helped us streamline operations and
 								identify new exploration opportunities."
 							</p>
-							<p className="text-gray-800 font-semibold">— Hamza Younas</p>
+
+							<div className="flex items-center">
+								<div className="flex text-yellow-400">
+									<svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+								</div>
+								<span className="text-gray-500 text-sm ml-2">5.0</span>
+							</div>
 						</div>
 
 						{/* Testimonial 2 */}
-						<div className="bg-white p-6 rounded-lg shadow border border-gray-100">
-							<p className="text-gray-700 italic mb-4 text-lg">
+						<div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 max-w-lg mx-auto transition-all duration-300 hover:shadow-xl">
+							<div className="flex mb-6">
+								<div className="flex-shrink-0 mr-4">
+									<div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
+										AR
+									</div>
+								</div>
+								<div>
+									<p className="text-gray-800 font-semibold text-lg">
+										Abdul Rehman
+									</p>
+									<p className="text-gray-500 text-sm">CEO, PZ Mir Inc.</p>
+								</div>
+							</div>
+
+							<p className="text-gray-700 italic mb-6 text-xl leading-relaxed">
 								"Their geochemical insights provided the clarity we needed to
 								optimize our resource extraction strategy."
 							</p>
-							<p className="text-gray-800 font-semibold">
-								— Subtain Muhammad Khan
-							</p>
+
+							<div className="flex items-center">
+								<div className="flex text-yellow-400">
+									<svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+								</div>
+								<span className="text-gray-500 text-sm ml-2">5.0</span>
+							</div>
 						</div>
 					</div>
 				</section>

@@ -1,14 +1,14 @@
 import React from "react";
 import email from "../assets/email.png";
 import phone from "../assets/phone.png";
-import location from "../assets/location.png";
+// import location from "../assets/location.png";
 import { Link } from "react-router";
 
 export default function Footer() {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className="w-full bg-orange-500 text-white">
+		<footer className="w-full bg-blue-600 text-white">
 			{/* Main Footer Content */}
 			<div className="container mx-auto px-4 py-8">
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -157,19 +157,19 @@ export default function Footer() {
 									0092-3327229966
 								</Link>
 							</p>
-							<p className="flex items-start gap-2">
+							{/* <p className="flex items-start gap-2">
 								<img src={location} className="w-6 mt-1" alt="Location" />
 								<span>
 									House no 22, Street no 152, Sector G-13/4, Islamabad Pakistan
 								</span>
-							</p>
+							</p> */}
 						</div>
 					</div>
 				</div>
 			</div>
 
 			{/* Copyright Bar */}
-			<div className="bg-orange-600 py-4">
+			<div className="bg-blue-800 py-4">
 				<div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm">
 					<p>© {currentYear} Astral Energy Solutions. All rights reserved.</p>
 					<div className="mt-2 md:mt-0 flex space-x-4">

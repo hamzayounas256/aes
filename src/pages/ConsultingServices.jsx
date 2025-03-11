@@ -48,14 +48,14 @@ export default function ConsultingServices() {
 			{/* Seismic Data Consulting */}
 			<section className="py-10 mb-16">
 				<div className="flex flex-col lg:flex-row gap-8">
-					<div className="lg:w-2/5">
+					<div className="lg:w-2/4">
 						<img
 							src={seismicData}
 							alt="Seismic Data Consulting"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
 					</div>
-					<div className="lg:w-3/5">
+					<div className="lg:w-3/4">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
 							Consultancy Services
 						</h2>
@@ -76,31 +76,36 @@ export default function ConsultingServices() {
 			</section>
 
 			{/* Drilling Advisory */}
-			<section className="py-10 mb-16">
-				<div className="flex flex-col lg:flex-row-reverse gap-8">
-					<div className="lg:w-2/5">
+			<section className="py-6 mb-12 mx-auto">
+				<div className="flex flex-col lg:flex-row gap-4">
+					<div className="lg:w-3/5 pl-4 md:pl-8 lg:pl-48">
+						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-3">
+							Drilling Services
+						</h2>
+						<div>
+							<h3 className="text-xl font-medium text-blue-600 mb-2">
+								Drilling Services Include:
+							</h3>
+							<ul className="text-gray-700 space-y-1 pl-2">
+								<li className="flex items-center">
+									<span className="text-blue-500 mr-2">•</span> Wells Site
+									Geologist
+								</li>
+								<li className="flex items-center">
+									<span className="text-blue-500 mr-2">•</span> Company Man
+								</li>
+								<li className="flex items-center">
+									<span className="text-blue-500 mr-2">•</span> Mud Engineer
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div className="lg:w-2/4">
 						<img
 							src={drillingAdvisory}
 							alt="Drilling Services"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
-					</div>
-					<div className="lg:w-3/5">
-						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-							Drilling Services
-						</h2>
-						<div className="space-y-6">
-							<div>
-								<h3 className="text-xl font-medium text-blue-600 mb-3">
-									Drilling Services Include:
-								</h3>
-								<ul className="text-gray-700 space-y-2 pl-5">
-									<li>• Wells Site Geologist</li>
-									<li>• Company Man</li>
-									<li>• Mud Engineer</li>
-								</ul>
-							</div>
-						</div>
 					</div>
 				</div>
 			</section>
@@ -108,14 +113,14 @@ export default function ConsultingServices() {
 			{/* Geological Studies */}
 			<section className="py-10 mb-16">
 				<div className="flex flex-col lg:flex-row gap-8">
-					<div className="lg:w-2/5">
+					<div className="lg:w-2/4">
 						<img
 							src={geologicalReservoir}
 							alt="Geological and Studies Services"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
 					</div>
-					<div className="lg:w-3/5">
+					<div className="lg:w-2/4">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
 							Geological Studies Services
 						</h2>
