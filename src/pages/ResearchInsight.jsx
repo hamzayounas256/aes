@@ -14,52 +14,52 @@ export default function ResearchInsight() {
 	document.title = "AES | Research & Insights";
 	const activeFilter = "All";
 
-	const thoughtLeadershipItems = [
-		{
-			id: 1,
-			title: "The Future of AI in Business Consulting",
-			author: "Dr. Sarah Ahmed",
-			date: "February 2025",
-			excerpt:
-				"An exploration of how artificial intelligence is transforming the consulting landscape and creating new opportunities for businesses.",
-			category: "Technology",
-			readTime: "8 min read",
-			image: "https://placehold.co/600x400/e2e8f0/1e40af",
-		},
-		{
-			id: 2,
-			title: "Sustainable Business Practices in South Asia",
-			author: "Muhammad Tariq",
-			date: "January 2025",
-			excerpt:
-				"A comprehensive analysis of how companies in South Asia are adopting sustainable practices and the economic benefits they're experiencing.",
-			category: "Sustainability",
-			readTime: "12 min read",
-			image: "https://placehold.co/600x400/e2e8f0/1e40af",
-		},
-		{
-			id: 3,
-			title: "Digital Transformation Roadmap for SMEs",
-			author: "Fatima Hassan",
-			date: "December 2024",
-			excerpt:
-				"Strategic guidance for small and medium enterprises looking to navigate their digital transformation journey effectively.",
-			category: "Digital Strategy",
-			readTime: "10 min read",
-			image: "https://placehold.co/600x400/e2e8f0/1e40af",
-		},
-		{
-			id: 4,
-			title: "Financial Services Trends in 2025",
-			author: "Amir Khan",
-			date: "March 2025",
-			excerpt:
-				"A forecast of the most significant shifts in the financial services industry expected throughout 2025 and beyond.",
-			category: "Finance",
-			readTime: "15 min read",
-			image: "https://placehold.co/600x400/e2e8f0/1e40af",
-		},
-	];
+	// const thoughtLeadershipItems = [
+	// 	{
+	// 		id: 1,
+	// 		title: "The Future of AI in Business Consulting",
+	// 		author: "Dr. Sarah Ahmed",
+	// 		date: "February 2025",
+	// 		excerpt:
+	// 			"An exploration of how artificial intelligence is transforming the consulting landscape and creating new opportunities for businesses.",
+	// 		category: "Technology",
+	// 		readTime: "8 min read",
+	// 		image: "https://placehold.co/600x400/e2e8f0/1e40af",
+	// 	},
+	// 	{
+	// 		id: 2,
+	// 		title: "Sustainable Business Practices in South Asia",
+	// 		author: "Muhammad Tariq",
+	// 		date: "January 2025",
+	// 		excerpt:
+	// 			"A comprehensive analysis of how companies in South Asia are adopting sustainable practices and the economic benefits they're experiencing.",
+	// 		category: "Sustainability",
+	// 		readTime: "12 min read",
+	// 		image: "https://placehold.co/600x400/e2e8f0/1e40af",
+	// 	},
+	// 	{
+	// 		id: 3,
+	// 		title: "Digital Transformation Roadmap for SMEs",
+	// 		author: "Fatima Hassan",
+	// 		date: "December 2024",
+	// 		excerpt:
+	// 			"Strategic guidance for small and medium enterprises looking to navigate their digital transformation journey effectively.",
+	// 		category: "Digital Strategy",
+	// 		readTime: "10 min read",
+	// 		image: "https://placehold.co/600x400/e2e8f0/1e40af",
+	// 	},
+	// 	{
+	// 		id: 4,
+	// 		title: "Financial Services Trends in 2025",
+	// 		author: "Amir Khan",
+	// 		date: "March 2025",
+	// 		excerpt:
+	// 			"A forecast of the most significant shifts in the financial services industry expected throughout 2025 and beyond.",
+	// 		category: "Finance",
+	// 		readTime: "15 min read",
+	// 		image: "https://placehold.co/600x400/e2e8f0/1e40af",
+	// 	},
+	// ];
 
 	const resourceItems = [
 		{
@@ -96,10 +96,10 @@ export default function ResearchInsight() {
 			? resourceItems
 			: resourceItems.filter((item) => item.category === activeFilter);
 
-	const filteredArticles =
-		activeFilter === "All"
-			? thoughtLeadershipItems
-			: thoughtLeadershipItems.filter((item) => item.category === activeFilter);
+	// const filteredArticles =
+	// 	activeFilter === "All"
+	// 		? thoughtLeadershipItems
+	// 		: thoughtLeadershipItems.filter((item) => item.category === activeFilter);
 
 	return (
 		<div className="mx-auto px-4 py-24 md:py-20 max-w-6xl">
