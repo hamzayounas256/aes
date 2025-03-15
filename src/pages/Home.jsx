@@ -1,6 +1,8 @@
 import React from "react";
 // Import a placeholder image - replace with your actual hero image path
 import heroImage from "../assets/hero.png";
+import headshot1 from "../assets/headshot1.jpeg";
+import headshot2 from "../assets/headshot2.jpeg";
 // import user from "../assets/user.png";
 import { Link } from "react-router";
 // Import certificate images - adjust paths as needed
@@ -51,7 +53,7 @@ export default function Home() {
 					</h2>
 					<div className="bg-gray-50 rounded-lg shadow-sm px-6 md:px-10 py-8">
 						<p className="text-gray-700 leading-relaxed text-lg">
-							Welcome to 
+							Welcome to
 							<strong> Astral Energy Services Private Limited (AES)</strong> —
 							your trusted consulting partner in the oil, gas, and mineral
 							industries. We offer strategic insights, technical expertise, and
@@ -134,9 +136,12 @@ export default function Home() {
 						<div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 max-w-lg mx-auto transition-all duration-300 hover:shadow-xl">
 							<div className="flex mb-6">
 								<div className="flex-shrink-0 mr-4">
-									<div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
-										HY
-									</div>
+									{/* <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl"> */}
+									<img
+										className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl"
+										src={headshot1}
+									/>
+									{/* </div> */}
 								</div>
 								<div>
 									<p className="text-gray-800 font-semibold text-lg">
@@ -179,9 +184,10 @@ export default function Home() {
 						<div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 max-w-lg mx-auto transition-all duration-300 hover:shadow-xl">
 							<div className="flex mb-6">
 								<div className="flex-shrink-0 mr-4">
-									<div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
-										AR
-									</div>
+									<img
+										className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl"
+										src={headshot2}
+									/>
 								</div>
 								<div>
 									<p className="text-gray-800 font-semibold text-lg">

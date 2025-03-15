@@ -64,35 +64,30 @@ export default function ResearchInsight() {
 	const resourceItems = [
 		{
 			id: 1,
-			title: "2024 Pakistan Business Climate Report",
+			title: "Offshore Indus",
 			type: "Research Paper",
 			fileSize: "4.2 MB",
 			downloadCount: "842",
-			category: "Business",
+			// category: "Business",
+			fileUrl: "/pdfs/offshore1.pdf",
 		},
 		{
 			id: 2,
-			title: "Financial Services Technology Implementation Guide",
+			title: "Offshore Indus",
 			type: "Technical Report",
 			fileSize: "3.7 MB",
 			downloadCount: "1,256",
-			category: "Technology",
+			// category: "Technology",
+			fileUrl: "/pdfs/offshore2.pdf",
 		},
 		{
 			id: 3,
-			title: "National Bank Digital Transformation",
+			title: "Shale play",
 			type: "Case Study",
 			fileSize: "2.1 MB",
 			downloadCount: "968",
-			category: "Digital Strategy",
-		},
-		{
-			id: 4,
-			title: "Environmental Impact Assessment for Manufacturing",
-			type: "Research Paper",
-			fileSize: "5.3 MB",
-			downloadCount: "734",
-			category: "Sustainability",
+			// category: "Digital Strategy",
+			fileUrl: "/pdfs/shaleplay.pdf",
 		},
 	];
 
@@ -173,7 +168,7 @@ export default function ResearchInsight() {
 			</div> */}
 
 			{/* Thought Leadership Section with improved card design */}
-			<section className="mb-16">
+			{/* <section className="mb-16">
 				<h2 className="text-2xl font-bold mb-6 pb-2 border-b-2 border-gray-200 flex items-center">
 					<BookOpen className="mr-2" size={24} />
 					Thought Leadership
@@ -189,14 +184,13 @@ export default function ResearchInsight() {
 							key={item.id}
 							className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col"
 						>
-							{/* Added image to cards */}
-							{/* <div className="h-48 overflow-hidden">
+							<div className="h-48 overflow-hidden">
 								<img
 									src={item.image}
 									alt={item.title}
 									className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
 								/>
-							</div> */}
+							</div>
 							<div className="p-6 flex flex-col flex-grow">
 								<span className="inline-block px-3 py-1 text-sm font-medium text-blue-700 bg-blue-100 rounded-full mb-4">
 									{item.category}
@@ -215,22 +209,22 @@ export default function ResearchInsight() {
 									</span>
 								</p>
 								<p className="text-gray-700 mb-4 flex-grow">{item.excerpt}</p>
-								{/* <div className="mt-4">
+								<div className="mt-4">
 									<button className="text-blue-600 hover:text-blue-800 font-medium flex items-center transition-colors">
 										Read More <ArrowRight size={16} className="ml-1" />
 									</button>
-								</div> */}
+								</div>
 							</div>
 						</div>
 					))}
 				</div>
 
-				{/* <div className="text-center mt-10">
+				<div className="text-center mt-10">
 					<button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition duration-200 flex items-center mx-auto">
 						View All Articles <ArrowRight size={18} className="ml-2" />
 					</button>
-				</div> */}
-			</section>
+				</div>
+			</section> */}
 
 			{/* Downloadable Resources Section with improved visual hierarchy */}
 			<section className="mb-16">
@@ -239,8 +233,8 @@ export default function ResearchInsight() {
 					Resources
 				</h2>
 				<p className="text-gray-700 mb-8">
-					Access research papers, technical reports, and case studies showcasing
-					AES's consulting impact.
+					Access research papers, technical reports, and case studies by AES's
+					consultance.
 				</p>
 
 				<div className="bg-gray-50 rounded-lg p-6 shadow-sm">
@@ -255,9 +249,9 @@ export default function ResearchInsight() {
 										{resource.title}
 									</h3>
 									<div className="flex flex-wrap items-center gap-4 mt-3">
-										<span className="inline-block px-3 py-1 text-sm font-medium text-blue-700 bg-blue-100 rounded-full">
+										{/* <span className="inline-block px-3 py-1 text-sm font-medium text-blue-700 bg-blue-100 rounded-full">
 											{resource.category}
-										</span>
+										</span> */}
 										<span className="text-sm text-gray-500 flex items-center">
 											<BookOpen size={14} className="mr-1" />
 											{resource.type}
@@ -268,8 +262,11 @@ export default function ResearchInsight() {
 										</span>
 									</div>
 								</div>
-								<button className="px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-200 whitespace-nowrap flex items-center cursor-pointer">
-									Download PDF <Download size={16} className="ml-2" />
+								<button
+									onClick={() => window.open(resource.fileUrl, "_blank")}
+									className="px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-200 whitespace-nowrap flex items-center cursor-pointer"
+								>
+									View PDF <Download size={16} className="ml-2" />
 								</button>
 							</div>
 						))}

@@ -3,6 +3,7 @@ import consultingImage from "../assets/consultingservices.jpg";
 import seismicData from "../assets/seismic_data.jpg";
 import drillingAdvisory from "../assets/drilling_advisory.jpg";
 import geologicalReservoir from "../assets/geological_reservoir.png";
+import consult from "../assets/consult.jpg";
 import { Link } from "react-router";
 
 export default function ConsultingServices() {
@@ -46,11 +47,11 @@ export default function ConsultingServices() {
 			</section>
 
 			{/* Geological Studies */}
-			<section className="py-10 mb-16">
+			<section className="">
 				<div className="flex flex-col lg:flex-row gap-8">
 					<div className="lg:w-2/4">
 						<img
-							src={geologicalReservoir}
+							src={consult}
 							alt="Geological and Studies Services"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
@@ -80,6 +81,93 @@ export default function ConsultingServices() {
 									<p>g. Bankable documents</p>
 								</div>
 
+								{/* <p className="font-medium mt-3 mb-1">
+									• Structural geology, Structural forward modeling,
+									Restoration, and petroleum systems modeling
+								</p> */}
+
+								{/* <p className="font-medium mt-3 mb-1">
+									• Geochemistry/Basin Modeling
+								</p>
+								<div className="pl-6 space-y-1">
+									<p>
+										a. Geochemistry Assessment of Asphaltene and prediction of
+										its distribution in Oil and Gas Reservoirs
+									</p>
+									<p>b. Unconventional and Conventional Resource Evaluation</p>
+									<p>
+										c. Assessment of leaked annulus fluids and genetic
+										correlation to their source reservoirs
+									</p>
+									<p>
+										d. Monitoring and assessment of CO2 and Water breakthrough
+										in WAG Projects
+									</p>
+									<p>e. Geochemistry Based methods in Exploration</p>
+									<p>
+										f. Assessment of oil and gas field vertical and lateral
+										compartments using fluid geochemistry
+									</p>
+									<p>
+										g. Core extracted fluids, oil, gas and water and hydrocarbon
+										resource potential evaluation
+									</p>
+									<p>
+										h. Understanding hydrocarbon charge history, basin modeling
+										and basin analysis using fluid inclusion studies
+									</p>
+									<p>
+										i. Finding additional value from produced formation waters
+										in your wells-how geochemistry can help
+									</p>
+									<p>
+										j. Gas composition, isotope geochemistry and its application
+										in reservoir studies
+									</p>
+									<p>
+										k. Geochemistry based assessment of H2S in reservoirs and
+										its distribution prediction
+									</p>
+									<p>
+										l. Geochemistry can help to select best sites and
+										surveillance for underground carbon storage
+									</p>
+									<p>
+										m. Biomarkers and their application in exploration and
+										production
+									</p>
+									<p>
+										n. Geochemistry labs, instruments, equipment and data
+										analytics
+									</p>
+									<p>
+										o. Assessment of controls on reservoir property distribution
+										and prediction
+									</p>
+									<p>
+										p. Exploration and production portfolio assessment and its
+										evaluation
+									</p>
+								</div> */}
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			{/* Geological Studies */}
+			<section className="py-10 mb-16">
+				<div className="flex flex-col lg:flex-row gap-8">
+					<div className="lg:w-2/4">
+						{/* <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
+							Geological Studies Services
+						</h2> */}
+						<div className="text-gray-700 space-y-4">
+							{/* <h3 className="text-xl font-medium text-blue-600 mb-2">
+								Studies Services Include:
+							</h3> */}
+
+							<div className="pl-5">
 								<p className="font-medium mt-3 mb-1">
 									• Structural geology, Structural forward modeling,
 									Restoration, and petroleum systems modeling
@@ -151,6 +239,13 @@ export default function ConsultingServices() {
 							</div>
 						</div>
 					</div>
+					<div className="lg:w-2/4">
+						<img
+							src={geologicalReservoir}
+							alt="Geological and Studies Services"
+							className="w-full h-auto rounded-lg shadow-md"
+						/>
+					</div>
 				</div>
 			</section>
 
@@ -164,7 +259,7 @@ export default function ConsultingServices() {
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
 					</div>
-					<div className="lg:w-3/4">
+					<div className="lg:w-3/4 pl-4">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
 							Consultancy Services
 						</h2>
@@ -185,9 +280,9 @@ export default function ConsultingServices() {
 			</section>
 
 			{/* Drilling Advisory */}
-			<section className="py-6 mb-12 mx-auto">
+			<section className="py-6 mb-12">
 				<div className="flex flex-col lg:flex-row gap-4">
-					<div className="lg:w-3/5 pl-4 md:pl-8 lg:pl-48">
+					<div className="lg:w-3/5 pl-4">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-3">
 							Drilling Services
 						</h2>

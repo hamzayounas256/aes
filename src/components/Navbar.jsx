@@ -9,8 +9,8 @@ export default function Navbar() {
 	const navItems = [
 		{ name: "Home", path: "/" },
 		{ name: "About Us", path: "/about" },
-		{ name: "Consulting Services", path: "/consultingservices" },
-		{ name: "Research & Insight", path: "/researchinsight" },
+		{ name: "Our Services", path: "/consultingservices" },
+		{ name: "Research", path: "/researchinsight" },
 		{ name: "Contact Us", path: "/contact" },
 	];
 
