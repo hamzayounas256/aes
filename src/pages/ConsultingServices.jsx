@@ -45,71 +45,6 @@ export default function ConsultingServices() {
 				</div>
 			</section>
 
-			{/* Seismic Data Consulting */}
-			<section className="py-10 mb-16">
-				<div className="flex flex-col lg:flex-row gap-8">
-					<div className="lg:w-2/4">
-						<img
-							src={seismicData}
-							alt="Seismic Data Consulting"
-							className="w-full h-auto rounded-lg shadow-md"
-						/>
-					</div>
-					<div className="lg:w-3/4">
-						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-							Consultancy Services
-						</h2>
-						<div className="space-y-6">
-							<div>
-								<h3 className="text-xl font-medium text-blue-600 mb-3">
-									Consultancy Services Include:
-								</h3>
-								<ul className="text-gray-700 space-y-2 pl-5">
-									<li>• 2D/3D Seismic Data Acquisition QC</li>
-									<li>• 2D/3D Seismic Data Processing QC</li>
-									<li>• Gravity/Magnetic QC</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			{/* Drilling Advisory */}
-			<section className="py-6 mb-12 mx-auto">
-				<div className="flex flex-col lg:flex-row gap-4">
-					<div className="lg:w-3/5 pl-4 md:pl-8 lg:pl-48">
-						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-3">
-							Drilling Services
-						</h2>
-						<div>
-							<h3 className="text-xl font-medium text-blue-600 mb-2">
-								Drilling Services Include:
-							</h3>
-							<ul className="text-gray-700 space-y-1 pl-2">
-								<li className="flex items-center">
-									<span className="text-blue-500 mr-2">•</span> Wells Site
-									Geologist
-								</li>
-								<li className="flex items-center">
-									<span className="text-blue-500 mr-2">•</span> Company Man
-								</li>
-								<li className="flex items-center">
-									<span className="text-blue-500 mr-2">•</span> Mud Engineer
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div className="lg:w-2/4">
-						<img
-							src={drillingAdvisory}
-							alt="Drilling Services"
-							className="w-full h-auto rounded-lg shadow-md"
-						/>
-					</div>
-				</div>
-			</section>
-
 			{/* Geological Studies */}
 			<section className="py-10 mb-16">
 				<div className="flex flex-col lg:flex-row gap-8">
@@ -215,6 +150,71 @@ export default function ConsultingServices() {
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</section>
+
+			{/* Seismic Data Consulting */}
+			<section className="py-10 mb-16">
+				<div className="flex flex-col lg:flex-row gap-8">
+					<div className="lg:w-2/4">
+						<img
+							src={seismicData}
+							alt="Seismic Data Consulting"
+							className="w-full h-auto rounded-lg shadow-md"
+						/>
+					</div>
+					<div className="lg:w-3/4">
+						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
+							Consultancy Services
+						</h2>
+						<div className="space-y-6">
+							<div>
+								<h3 className="text-xl font-medium text-blue-600 mb-3">
+									Consultancy Services Include:
+								</h3>
+								<ul className="text-gray-700 space-y-2 pl-5">
+									<li>• 2D/3D Seismic Data Acquisition QC</li>
+									<li>• 2D/3D Seismic Data Processing QC</li>
+									<li>• Gravity/Magnetic QC</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			{/* Drilling Advisory */}
+			<section className="py-6 mb-12 mx-auto">
+				<div className="flex flex-col lg:flex-row gap-4">
+					<div className="lg:w-3/5 pl-4 md:pl-8 lg:pl-48">
+						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-3">
+							Drilling Services
+						</h2>
+						<div>
+							<h3 className="text-xl font-medium text-blue-600 mb-2">
+								Drilling Services Include:
+							</h3>
+							<ul className="text-gray-700 space-y-1 pl-2">
+								<li className="flex items-center">
+									<span className="text-blue-500 mr-2">•</span> Wells Site
+									Geologist
+								</li>
+								<li className="flex items-center">
+									<span className="text-blue-500 mr-2">•</span> Company Man
+								</li>
+								<li className="flex items-center">
+									<span className="text-blue-500 mr-2">•</span> Mud Engineer
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div className="lg:w-2/4">
+						<img
+							src={drillingAdvisory}
+							alt="Drilling Services"
+							className="w-full h-auto rounded-lg shadow-md"
+						/>
 					</div>
 				</div>
 			</section>

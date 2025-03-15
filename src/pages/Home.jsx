@@ -51,8 +51,8 @@ export default function Home() {
 					</h2>
 					<div className="bg-gray-50 rounded-lg shadow-sm px-6 md:px-10 py-8">
 						<p className="text-gray-700 leading-relaxed text-lg">
-							Welcome to
-							<strong>Astral Energy Services Private Limited (AES)</strong> —
+							Welcome to 
+							<strong> Astral Energy Services Private Limited (AES)</strong> —
 							your trusted consulting partner in the oil, gas, and mineral
 							industries. We offer strategic insights, technical expertise, and
 							data-driven solutions to help clients optimize exploration,

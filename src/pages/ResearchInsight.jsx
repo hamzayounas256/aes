@@ -268,9 +268,9 @@ export default function ResearchInsight() {
 										</span>
 									</div>
 								</div>
-								{/* <button className="px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-200 whitespace-nowrap flex items-center">
+								<button className="px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-200 whitespace-nowrap flex items-center cursor-pointer">
 									Download PDF <Download size={16} className="ml-2" />
-								</button> */}
+								</button>
 							</div>
 						))}
 					</div>
