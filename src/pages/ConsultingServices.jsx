@@ -29,7 +29,7 @@ export default function ConsultingServices() {
 					<p className="text-lg md:text-xl text-white mb-8">
 						Expert solutions tailored to the oil, gas, and mineral industries
 					</p>
-					<div className="h-1 w-32 bg-blue-600 mx-auto"></div>
+					<div className="h-1 w-32 bg-[#2694AC] mx-auto"></div>
 				</div>
 			</section>
 
@@ -61,7 +61,7 @@ export default function ConsultingServices() {
 							Geological Studies Services
 						</h2>
 						<div className="text-gray-700 space-y-4">
-							<h3 className="text-xl font-medium text-blue-600 mb-2">
+							<h3 className="text-xl font-medium text-[#2694AC] mb-2">
 								Studies Services Include:
 							</h3>
 
@@ -163,7 +163,7 @@ export default function ConsultingServices() {
 							Geological Studies Services
 						</h2> */}
 						<div className="text-gray-700 space-y-4">
-							{/* <h3 className="text-xl font-medium text-blue-600 mb-2">
+							{/* <h3 className="text-xl font-medium text-[#2694AC] mb-2">
 								Studies Services Include:
 							</h3> */}
 
@@ -265,7 +265,7 @@ export default function ConsultingServices() {
 						</h2>
 						<div className="space-y-6">
 							<div>
-								<h3 className="text-xl font-medium text-blue-600 mb-3">
+								<h3 className="text-xl font-medium text-[#2694AC] mb-3">
 									Consultancy Services Include:
 								</h3>
 								<ul className="text-gray-700 space-y-2 pl-5">
@@ -287,19 +287,19 @@ export default function ConsultingServices() {
 							Drilling Services
 						</h2>
 						<div>
-							<h3 className="text-xl font-medium text-blue-600 mb-2">
+							<h3 className="text-xl font-medium text-[#2694AC] mb-2">
 								Drilling Services Include:
 							</h3>
 							<ul className="text-gray-700 space-y-1 pl-2">
 								<li className="flex items-center">
-									<span className="text-blue-500 mr-2">•</span> Wells Site
+									<span className="text-[#2694AC] mr-2">•</span> Wells Site
 									Geologist
 								</li>
 								<li className="flex items-center">
-									<span className="text-blue-500 mr-2">•</span> Company Man
+									<span className="text-[#2694AC] mr-2">•</span> Company Man
 								</li>
 								<li className="flex items-center">
-									<span className="text-blue-500 mr-2">•</span> Mud Engineer
+									<span className="text-[#2694AC] mr-2">•</span> Mud Engineer
 								</li>
 							</ul>
 						</div>
@@ -315,25 +315,25 @@ export default function ConsultingServices() {
 			</section>
 
 			{/* CTA Section */}
-			<section className="py-12 bg-blue-600 text-white rounded-lg mb-12 px-6 md:px-10">
+			<section className="py-12 bg-[#2694AC] text-white rounded-lg mb-12 px-6 md:px-10">
 				<div className="text-center">
 					<h2 className="text-2xl md:text-3xl font-bold mb-4">
 						Ready to optimize your energy operations?
 					</h2>
-					<p className="mb-6 text-blue-100 max-w-3xl mx-auto">
+					<p className="mb-6 text-[#2694AC] max-w-3xl mx-auto">
 						Contact our team to discuss how our services can address your
 						specific challenges and help you achieve your business objectives.
 					</p>
 					<div className="flex flex-col sm:flex-row justify-center gap-4">
 						<Link
 							to="/contact"
-							className="inline-block px-6 py-3 bg-white text-blue-600 font-medium rounded-md hover:bg-gray-100 transition-colors"
+							className="inline-block px-6 py-3 bg-white text-[#2694AC] font-medium rounded-md hover:bg-gray-100 transition-colors"
 						>
 							Request a Consultation
 						</Link>
 						<Link
 							to="/researchinsight"
-							className="inline-block px-6 py-3 bg-transparent border border-white text-white font-medium rounded-md hover:bg-blue-700 transition-colors"
+							className="inline-block px-6 py-3 bg-transparent border border-white text-white font-medium rounded-md hover:bg-[#2694AC] transition-colors"
 						>
 							View All Case Studies
 						</Link>

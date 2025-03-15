@@ -28,8 +28,8 @@ export default function Navbar() {
 							key={item.path}
 							to={item.path}
 							className={({ isActive }) => {
-								return `relative group py-2 flex flex-col items-center hover:text-blue-700 transition-colors duration-200 ${
-									isActive ? "text-blue-700 font-semibold" : ""
+								return `relative group py-2 flex flex-col items-center hover:text-[#2694AC] transition-colors duration-200 ${
+									isActive ? "text-[#2694AC] font-semibold" : ""
 								}`;
 							}}
 						>
@@ -37,7 +37,7 @@ export default function Navbar() {
 								<>
 									<span>{item.name.toUpperCase()}</span>
 									<span
-										className={`w-2/3 h-0.5 bg-blue-700 mt-1 transition-all duration-200 ${
+										className={`w-2/3 h-0.5 bg-[#2694AC] mt-1 transition-all duration-200 ${
 											isActive
 												? "opacity-100"
 												: "opacity-0 group-hover:opacity-100"

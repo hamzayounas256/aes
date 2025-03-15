@@ -30,7 +30,7 @@ export default function About() {
 					<p className="text-lg md:text-xl text-white mb-8">
 						Dedicated to excellence in energy consultancy
 					</p>
-					<div className="h-1 w-32 bg-blue-600 mx-auto"></div>
+					<div className="h-1 w-32 bg-[#2694AC] mx-auto"></div>
 				</div>
 			</section>
 
@@ -58,7 +58,7 @@ export default function About() {
 				<div className="grid md:grid-cols-2 gap-8">
 					{/* Mission Card */}
 					<div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow">
-						<div className="bg-blue-600 h-2"></div>
+						<div className="bg-[#2694AC] h-2"></div>
 						<div className="p-6">
 							<h3 className="text-xl font-semibold text-gray-800 mb-3">
 								Our Mission
@@ -72,7 +72,7 @@ export default function About() {
 
 					{/* Vision Card */}
 					<div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow">
-						<div className="bg-blue-600 h-2"></div>
+						<div className="bg-[#2694AC] h-2"></div>
 						<div className="p-6">
 							<h3 className="text-xl font-semibold text-gray-800 mb-3">
 								Our Vision
@@ -123,7 +123,7 @@ export default function About() {
 							alt="Dr. Asif Ahsan - Chief Geological Advisor"
 						/>
 						<h3 className="text-xl font-semibold mb-1">Dr. Asif Ahsan</h3>
-						<p className="text-blue-600 mb-3">Chief Geological Advisor</p>
+						<p className="text-[#2694AC] mb-3">Chief Geological Advisor</p>
 						<p className="text-gray-600 text-sm">
 							With over 30 years of experience in petroleum geology and resource
 							evaluation.
@@ -138,7 +138,7 @@ export default function About() {
 							alt="Atiq ur Rehman - Senior Drilling Consultant"
 						/>
 						<h3 className="text-xl font-semibold mb-1">Atiq ur Rehman</h3>
-						<p className="text-blue-600 mb-3">Senior Drilling Consultant</p>
+						<p className="text-[#2694AC] mb-3">Senior Drilling Consultant</p>
 						<p className="text-gray-600 text-sm">
 							Specialized in optimizing drilling operations and safety
 							protocols.
@@ -153,7 +153,7 @@ export default function About() {
 							alt="Muhammad Azhar - Seismic Data Specialist"
 						/>
 						<h3 className="text-xl font-semibold mb-1">Muhammad Azhar</h3>
-						<p className="text-blue-600 mb-3">Seismic Data Specialist</p>
+						<p className="text-[#2694AC] mb-3">Seismic Data Specialist</p>
 						<p className="text-gray-600 text-sm">
 							Expert in interpreting complex geological data for exploration
 							projects.
@@ -163,7 +163,7 @@ export default function About() {
 				<div className="mt-8 text-center">
 					<Link
 						to="/ourteam"
-						className="inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors"
+						className="inline-block px-6 py-3 bg-[#2694AC] text-white font-medium rounded-md hover:bg-[#2694AC] transition-colors"
 					>
 						Our Team →
 					</Link>

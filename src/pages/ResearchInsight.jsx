@@ -125,7 +125,7 @@ export default function ResearchInsight() {
 						resources to help your organization innovate and grow.
 					</p>
 					{/* <div className="flex flex-col sm:flex-row gap-4 mt-4">
-						<button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition duration-200 flex items-center justify-center gap-2">
+						<button className="px-6 py-3 bg-[#2694AC] text-white font-medium rounded-md hover:bg-blue-700 transition duration-200 flex items-center justify-center gap-2">
 							<BookOpen size={18} />
 							Browse Research
 						</button>
@@ -157,7 +157,7 @@ export default function ResearchInsight() {
 							onClick={() => setActiveFilter(category)}
 							className={`px-4 py-2 rounded-md text-sm font-medium whitespace-nowrap transition-colors ${
 								activeFilter === category
-									? "bg-blue-600 text-white"
+									? "bg-[#2694AC] text-white"
 									: "bg-gray-100 text-gray-700 hover:bg-gray-200"
 							}`}
 						>
@@ -195,7 +195,7 @@ export default function ResearchInsight() {
 								<span className="inline-block px-3 py-1 text-sm font-medium text-blue-700 bg-blue-100 rounded-full mb-4">
 									{item.category}
 								</span>
-								<h3 className="text-xl font-semibold mb-2 hover:text-blue-600 transition-colors">
+								<h3 className="text-xl font-semibold mb-2 hover:text-[#2694AC] transition-colors">
 									{item.title}
 								</h3>
 								<p className="text-gray-600 text-sm mb-3 flex flex-wrap gap-3">
@@ -210,7 +210,7 @@ export default function ResearchInsight() {
 								</p>
 								<p className="text-gray-700 mb-4 flex-grow">{item.excerpt}</p>
 								<div className="mt-4">
-									<button className="text-blue-600 hover:text-blue-800 font-medium flex items-center transition-colors">
+									<button className="text-[#2694AC] hover:text-blue-800 font-medium flex items-center transition-colors">
 										Read More <ArrowRight size={16} className="ml-1" />
 									</button>
 								</div>
@@ -220,7 +220,7 @@ export default function ResearchInsight() {
 				</div>
 
 				<div className="text-center mt-10">
-					<button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition duration-200 flex items-center mx-auto">
+					<button className="px-6 py-3 bg-[#2694AC] text-white font-medium rounded-md hover:bg-blue-700 transition duration-200 flex items-center mx-auto">
 						View All Articles <ArrowRight size={18} className="ml-2" />
 					</button>
 				</div>
@@ -245,7 +245,7 @@ export default function ResearchInsight() {
 								className="bg-white rounded-lg border border-gray-200 p-5 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 hover:shadow-md transition-shadow"
 							>
 								<div>
-									<h3 className="text-lg font-semibold hover:text-blue-600 transition-colors">
+									<h3 className="text-lg font-semibold hover:text-[#2694AC] transition-colors">
 										{resource.title}
 									</h3>
 									<div className="flex flex-wrap items-center gap-4 mt-3">
@@ -264,7 +264,7 @@ export default function ResearchInsight() {
 								</div>
 								<button
 									onClick={() => window.open(resource.fileUrl, "_blank")}
-									className="px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-200 whitespace-nowrap flex items-center cursor-pointer"
+									className="px-5 py-2 bg-[#2694AC] text-white rounded-md hover:bg-[#2694AC] transition duration-200 whitespace-nowrap flex items-center cursor-pointer"
 								>
 									View PDF <Download size={16} className="ml-2" />
 								</button>
@@ -274,13 +274,13 @@ export default function ResearchInsight() {
 				</div>
 
 				{/* Custom Research CTA with improved design */}
-				<div className="bg-gradient-to-r from-blue-800 to-blue-600 rounded-lg p-8 mt-10 text-white shadow-lg">
+				<div className="bg-[#2694AC] rounded-lg p-8 mt-10 text-white shadow-lg">
 					<div className="flex flex-col md:flex-row items-center justify-between">
 						<div className="mb-6 md:mb-0 md:mr-8">
 							<h3 className="text-2xl font-semibold mb-3">
 								Need Custom Research?
 							</h3>
-							<p className="text-blue-100 max-w-xl">
+							<p className="text-white max-w-xl">
 								Our consulting team can develop tailored research solutions to
 								address your specific business challenges and help you make
 								informed strategic decisions.
@@ -288,7 +288,7 @@ export default function ResearchInsight() {
 						</div>
 						<Link
 							to="/contact"
-							className="px-6 py-3 bg-white text-blue-800 font-medium rounded-md hover:bg-gray-100 transition duration-200 whitespace-nowrap"
+							className="px-6 py-3 bg-white text-[#2694AC] font-medium rounded-md hover:bg-gray-100 transition duration-200 whitespace-nowrap"
 						>
 							Contact Our Team
 						</Link>
@@ -317,23 +317,23 @@ export default function ResearchInsight() {
 							</p>
 							<ul className="space-y-2 mb-6">
 								<li className="flex items-start">
-									<span className="text-blue-600 mr-2">✓</span>
+									<span className="text-[#2694AC] mr-2">✓</span>
 									Economic forecasts and growth projections
 								</li>
 								<li className="flex items-start">
-									<span className="text-blue-600 mr-2">✓</span>
+									<span className="text-[#2694AC] mr-2">✓</span>
 									Sector-specific analysis and insights
 								</li>
 								<li className="flex items-start">
-									<span className="text-blue-600 mr-2">✓</span>
+									<span className="text-[#2694AC] mr-2">✓</span>
 									Risk assessment and mitigation strategies
 								</li>
 								<li className="flex items-start">
-									<span className="text-blue-600 mr-2">✓</span>
+									<span className="text-[#2694AC] mr-2">✓</span>
 									Data-driven business recommendations
 								</li>
 							</ul>
-							<button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition duration-200 flex items-center">
+							<button className="px-6 py-3 bg-[#2694AC] text-white font-medium rounded-md hover:bg-blue-700 transition duration-200 flex items-center">
 								Download Full Report <Download size={18} className="ml-2" />
 							</button>
 						</div>
@@ -360,9 +360,9 @@ export default function ResearchInsight() {
 						<input
 							type="email"
 							placeholder="Your email address"
-							className="flex-grow px-4 py-2 rounded-md border focus:outline-none focus:ring-2 focus:ring-blue-500"
+							className="flex-grow px-4 py-2 rounded-md border focus:outline-none focus:ring-2 focus:ring-[#2694AC]"
 						/>
-						<button className="px-6 py-2 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition duration-200 whitespace-nowrap">
+						<button className="px-6 py-2 bg-[#2694AC] text-white font-medium rounded-md hover:bg-[#2694AC] transition duration-200 whitespace-nowrap">
 							Subscribe
 						</button>
 					</div>

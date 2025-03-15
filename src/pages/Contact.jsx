@@ -139,7 +139,7 @@ export default function Contact() {
 
 						<button
 							type="submit"
-							className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md transition duration-300"
+							className="w-full bg-[#2694AC] hover:bg-[#2694AC] text-white font-medium py-2 px-4 rounded-md transition duration-300"
 						>
 							Submit Request
 						</button>
@@ -186,7 +186,7 @@ export default function Contact() {
 							<div className="flex items-center gap-2">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									className="h-5 w-5 text-blue-600"
+									className="h-5 w-5 text-[#2694AC]"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -200,7 +200,7 @@ export default function Contact() {
 								</svg>
 								<a
 									href="mailto:astralenergy24@gmail.com"
-									className="text-blue-600 hover:underline"
+									className="text-[#2694AC] hover:underline"
 								>
 									astralenergy24@gmail.com
 								</a>
@@ -209,7 +209,7 @@ export default function Contact() {
 							<div className="flex items-center gap-2">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									className="h-5 w-5 text-blue-600"
+									className="h-5 w-5 text-[#2694AC]"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -223,7 +223,7 @@ export default function Contact() {
 								</svg>
 								<a
 									href="tel:+923327229966"
-									className="text-blue-600 hover:underline"
+									className="text-[#2694AC] hover:underline"
 								>
 									00923327229966
 								</a>

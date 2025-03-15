@@ -156,6 +156,8 @@ const teamData = {
 	],
 };
 
+const color = "#2694AC";
+
 // Team member card component
 const TeamMemberCard = ({ member }) => {
 	const [isExpanded, setIsExpanded] = useState(false);
@@ -174,7 +176,9 @@ const TeamMemberCard = ({ member }) => {
 			/>
 			<h3 className="text-xl font-semibold mt-4">{member.name}</h3>
 			{member.subdescription && (
-				<p className="text-blue-600 text-sm mt-1">{member.subdescription}</p>
+				<p style={{ color: color }} className="text-sm mt-1">
+					{member.subdescription}
+				</p>
 			)}
 			<div className="mt-2">
 				<p className="text-gray-600 text-justify">
@@ -183,7 +187,8 @@ const TeamMemberCard = ({ member }) => {
 				{words.length > 30 && (
 					<button
 						onClick={() => setIsExpanded(!isExpanded)}
-						className="text-blue-600 hover:text-blue-800 text-sm mt-2 focus:outline-none"
+						style={{ color: color }}
+						className="hover:text-blue-800 text-sm mt-2 focus:outline-none"
 					>
 						{isExpanded ? "Read less" : "Read more"}
 					</button>
@@ -197,7 +202,10 @@ const TeamMemberCard = ({ member }) => {
 const TeamCategory = ({ title, members }) => {
 	return (
 		<div className="mt-8">
-			<div className="bg-blue-600 text-white rounded-lg px-6 py-3 mb-6 shadow-md">
+			<div
+				style={{ backgroundColor: color }}
+				className="text-white rounded-lg px-6 py-3 mb-6 shadow-md"
+			>
 				<h2 className="text-lg font-semibold">{title}</h2>
 			</div>
 			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -228,7 +236,7 @@ const OurTeam = () => {
 				</div>
 
 				{/* Team Category Tabs */}
-				<div className="flex flex-wrap justify-center gap-2 mb-8">
+				{/* <div className="flex flex-wrap justify-center gap-2 mb-8">
 					<button
 						onClick={() => setActiveTab("all")}
 						className={`px-4 py-2 rounded-md transition-colors ${
@@ -269,7 +277,7 @@ const OurTeam = () => {
 					>
 						Studies Team
 					</button>
-				</div>
+				</div> */}
 
 				{/* Team Categories */}
 				{(activeTab === "all" || activeTab === "seismic") && (

@@ -37,7 +37,7 @@ export default function Home() {
 					</p>
 					<Link
 						to="/consultingservices"
-						className="px-8 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors text-lg"
+						className="px-8 py-3 bg-[#2694AC] text-white font-medium rounded-md hover:bg-[#2694AC] transition-colors text-lg"
 					>
 						Explore Our Expertise
 					</Link>
@@ -74,7 +74,7 @@ export default function Home() {
 					<div className="grid md:grid-cols-3 gap-6 lg:gap-8">
 						{/* Card 1 */}
 						<div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow">
-							<div className="bg-blue-600 h-2"></div>
+							<div className="bg-[#2694AC] h-2"></div>
 							<div className="p-6">
 								<h3 className="text-xl font-semibold text-gray-800 mb-3">
 									Seismic Data Consulting
@@ -88,7 +88,7 @@ export default function Home() {
 
 						{/* Card 2 */}
 						<div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow">
-							<div className="bg-blue-600 h-2"></div>
+							<div className="bg-[#2694AC] h-2"></div>
 							<div className="p-6">
 								<h3 className="text-xl font-semibold text-gray-800 mb-3">
 									Drilling Advisory
@@ -102,7 +102,7 @@ export default function Home() {
 
 						{/* Card 3 */}
 						<div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow">
-							<div className="bg-blue-600 h-2"></div>
+							<div className="bg-[#2694AC] h-2"></div>
 							<div className="p-6">
 								<h3 className="text-xl font-semibold text-gray-800 mb-3">
 									Geological Studies & Analysis
@@ -118,7 +118,7 @@ export default function Home() {
 					<div className="mt-8 text-center">
 						<Link
 							to="/consultingservices"
-							className="inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors"
+							className="inline-block px-6 py-3 bg-[#2694AC] text-white font-medium rounded-md hover:bg-[#2694AC] transition-colors"
 						>
 							Learn More About Our Services →
 						</Link>
@@ -136,9 +136,9 @@ export default function Home() {
 						<div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 max-w-lg mx-auto transition-all duration-300 hover:shadow-xl">
 							<div className="flex mb-6">
 								<div className="flex-shrink-0 mr-4">
-									{/* <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl"> */}
+									{/* <div className="w-12 h-12 bg-[#2694AC] rounded-full flex items-center justify-center text-white font-bold text-xl"> */}
 									<img
-										className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl"
+										className="w-12 h-12 bg-[#2694AC] rounded-full flex items-center justify-center text-white font-bold text-xl"
 										src={headshot1}
 									/>
 									{/* </div> */}
@@ -185,7 +185,7 @@ export default function Home() {
 							<div className="flex mb-6">
 								<div className="flex-shrink-0 mr-4">
 									<img
-										className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl"
+										className="w-12 h-12 bg-[#2694AC] rounded-full flex items-center justify-center text-white font-bold text-xl"
 										src={headshot2}
 									/>
 								</div>

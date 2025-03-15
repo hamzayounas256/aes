@@ -8,7 +8,7 @@ export default function Footer() {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className="w-full bg-blue-600 text-white">
+		<footer className="w-full bg-[#2694AC] text-white">
 			{/* Main Footer Content */}
 			<div className="container mx-auto px-4 py-8">
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -169,7 +169,7 @@ export default function Footer() {
 			</div>
 
 			{/* Copyright Bar */}
-			<div className="bg-blue-800 py-4">
+			<div className="bg-[#2694AC] py-4 border-t">
 				<div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm">
 					<p>© {currentYear} Astral Energy Solutions. All rights reserved.</p>
 					<div className="mt-2 md:mt-0 flex space-x-4">
