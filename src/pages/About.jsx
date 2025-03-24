@@ -160,14 +160,14 @@ export default function About() {
 						</p>
 					</div>
 				</div>
-				<div className="mt-8 text-center">
+				{/* <div className="mt-8 text-center">
 					<Link
 						to="/ourteam"
 						className="inline-block px-6 py-3 bg-[#2694AC] text-white font-medium rounded-md hover:bg-[#2694AC] transition-colors"
 					>
 						Our Team →
 					</Link>
-				</div>
+				</div> */}
 			</section>
 
 			{/* HSE Section */}
