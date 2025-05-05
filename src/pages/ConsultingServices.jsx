@@ -2,10 +2,10 @@ import React from "react";
 import consultingImage from "../assets/consultingservices.jpg";
 import seismicData from "../assets/seismic_data.jpg";
 import drillingAdvisory from "../assets/drilling_advisory.jpg";
-import geologicalReservoir from "../assets/geological_reservoir.png";
+// import geologicalReservoir from "../assets/geological_reservoir.png";
 import consult from "../assets/consult.jpg";
 import fillCircle from "../assets/fillCircle.png";
-import emptyCircle from "../assets/emptyCircle.png";
+// import emptyCircle from "../assets/emptyCircle.png";
 import { Link } from "react-router";
 
 export default function ConsultingServices() {

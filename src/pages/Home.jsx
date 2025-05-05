@@ -1,8 +1,8 @@
 import React from "react";
 // Import a placeholder image - replace with your actual hero image path
 import heroImage from "../assets/hero.png";
-import headshot1 from "../assets/headshot1.jpeg";
-import headshot2 from "../assets/headshot2.jpeg";
+// import headshot1 from "../assets/headshot1.jpeg";
+// import headshot2 from "../assets/headshot2.jpeg";
 // import user from "../assets/user.png";
 import { Link } from "react-router";
 // Import certificate images - adjust paths as needed
