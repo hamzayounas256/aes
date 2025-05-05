@@ -29,7 +29,7 @@ export default function ConsultingServices() {
 						Services
 					</h1>
 					<p className="text-lg md:text-xl text-white mb-8">
-						Expert solutions tailored to the oil, gas
+						Expert solutions tailored to the Oil, Gas and Mineral
 						{/* , and mineral industries */}
 					</p>
 					<div className="h-1 w-32 bg-[#2694AC] mx-auto"></div>
@@ -52,13 +52,6 @@ export default function ConsultingServices() {
 			{/* Seismic Data Consulting */}
 			<section className="mb-10">
 				<div className="flex flex-col lg:flex-row gap-8">
-					<div className="lg:w-3/4">
-						<img
-							src={seismicData}
-							alt="Seismic Data Consulting"
-							className="w-full h-auto rounded-lg shadow-md"
-						/>
-					</div>
 					<div className="lg:w-2/4 pl-4">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
 							Consultancy Services
@@ -82,6 +75,67 @@ export default function ConsultingServices() {
 										Gravity/Magnetic QC
 									</li>
 								</ul>
+							</div>
+						</div>
+					</div>
+					<div className="lg:w-3/4">
+						<img
+							src={seismicData}
+							alt="Seismic Data Consulting"
+							className="w-full h-auto rounded-lg shadow-md"
+						/>
+					</div>
+				</div>
+			</section>
+
+			{/* Mineral Exploration Services*/}
+			<section className="mb-10">
+				<div className="flex flex-col lg:flex-row gap-8">
+					<div className="lg:w-3/4">
+						<img
+							src={consult}
+							alt="Geological and Studies Services"
+							className="w-full h-auto rounded-lg shadow-md"
+						/>
+					</div>
+					<div className="lg:w-2/4">
+						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
+							Mineral Exploration Services
+						</h2>
+						<div className="text-gray-700 space-y-4">
+							<h3 className="text-xl font-medium text-[#2694AC] mb-2">
+								Mineral Services Include (CRIRSCO Code):
+							</h3>
+
+							<div className="pl-5">
+								<p className="font-medium mb-1 flex gap-2 items-center">
+									<img className="w-2 h-2" src={fillCircle} /> Field Geology
+								</p>
+								<p className="font-medium mb-1 flex gap-2 items-center">
+									<img className="w-2 h-2" src={fillCircle} />
+									Scoping Study
+								</p>
+
+								<p className="font-medium mb-1 flex gap-2 items-center">
+									<img className="w-2 h-2" src={fillCircle} />
+									Geophysical Study (Magnetic, IP, Resistivity)
+								</p>
+								<p className="font-medium mb-1 flex gap-2 items-center">
+									<img className="w-2 h-2" src={fillCircle} />
+									Core Cutting
+								</p>
+								<p className="font-medium mb-1 flex gap-2 items-center">
+									<img className="w-2 h-2" src={fillCircle} />
+									Pre-Feasibility Study
+								</p>
+								<p className="font-medium mb-1 flex gap-2 items-center">
+									<img className="w-2 h-2" src={fillCircle} />
+									Reserve Estimation and Certification
+								</p>
+								<p className="font-medium mb-1 flex gap-2 items-center">
+									<img className="w-2 h-2" src={fillCircle} />
+									Bankable documents
+								</p>
 							</div>
 						</div>
 					</div>
@@ -117,178 +171,6 @@ export default function ConsultingServices() {
 						<img
 							src={drillingAdvisory}
 							alt="Drilling Services"
-							className="w-full h-auto rounded-lg shadow-md"
-						/>
-					</div>
-				</div>
-			</section>
-
-			{/* Geological Studies */}
-			<section className="">
-				<div className="flex flex-col lg:flex-row gap-8">
-					<div className="lg:w-3/4">
-						<img
-							src={consult}
-							alt="Geological and Studies Services"
-							className="w-full h-auto rounded-lg shadow-md"
-						/>
-					</div>
-					<div className="lg:w-2/4">
-						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-							Geological Studies Services
-						</h2>
-						<div className="text-gray-700 space-y-4">
-							<h3 className="text-xl font-medium text-[#2694AC] mb-2">
-								Studies Services Include:
-							</h3>
-
-							<div className="pl-5">
-								<p className="font-medium mb-1 flex gap-2 items-center">
-									<img className="w-2 h-2" src={fillCircle} /> Field Geology
-								</p>
-
-								<p className="font-medium mb-1 flex gap-2 items-center">
-									<img className="w-2 h-2" src={fillCircle} /> Mineral
-									Exploration (CRIRSCO Code)
-								</p>
-								<div className="pl-6 space-y-1">
-									<p className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Scoping Study
-									</p>
-									<p className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Field Geology
-									</p>
-									<p className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Geophysical
-										Study (Magnetic, IP, Resistivity)
-									</p>
-									<p className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Core Cutting
-									</p>
-									<p className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={emptyCircle} />{" "}
-										Pre-Feasibility Study
-									</p>
-									<p className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Reserve
-										Estimation and Certification
-									</p>
-									<p className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Bankable
-										documents
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			{/* Geological Studies */}
-			<section className="py-10 mb-16">
-				<div className="flex flex-col lg:flex-row gap-8">
-					<div className="lg:w-2/4">
-						{/* <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-							Geological Studies Services
-						</h2> */}
-						<div className="text-gray-700 space-y-4">
-							{/* <h3 className="text-xl font-medium text-[#2694AC] mb-2">
-								Studies Services Include:
-							</h3> */}
-
-							<div className="mt-5 pl-5">
-								<p className="font-medium mb-1 flex gap-3 items-center">
-									<img className="w-2 h-2" src={fillCircle} /> Structural
-									geology, Structural forward modeling, Restoration, and
-									petroleum systems modeling
-								</p>
-
-								<p className="font-medium mb-1 flex gap-3 items-center">
-									<img className="w-2 h-2" src={fillCircle} />{" "}
-									Geochemistry/Basin Modeling
-								</p>
-								<div className="pl-6 space-y-1">
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Geochemistry
-										Assessment of Asphaltene and prediction of its distribution
-										in Oil and Gas Reservoirs
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Unconventional
-										and Conventional Resource Evaluation
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Assessment of
-										leaked annulus fluids and genetic correlation to their
-										source reservoirs
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Monitoring and
-										assessment of CO2 and Water breakthrough in WAG Projects
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Geochemistry
-										Based methods in Exploration
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Assessment of
-										oil and gas field vertical and lateral compartments using
-										fluid geochemistry
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Core extracted
-										fluids, oil, gas and water and hydrocarbon resource
-										potential evaluation
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Understanding
-										hydrocarbon charge history, basin modeling and basin
-										analysis using fluid inclusion studies
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Finding
-										additional value from produced formation waters in your
-										wells-how geochemistry can help
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Gas
-										composition, isotope geochemistry and its application in
-										reservoir studies
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Geochemistry
-										based assessment of H2S in reservoirs and its distribution
-										prediction
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Geochemistry
-										can help to select best sites and surveillance for
-										underground carbon storage
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Biomarkers and
-										their application in exploration and production
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Geochemistry
-										labs, instruments, equipment and data analytics
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Assessment of
-										controls on reservoir property distribution and prediction
-									</p>
-									<p className="flex gap-3 items-center">
-										<img className="w-2 h-2" src={emptyCircle} /> Exploration
-										and production portfolio assessment and its evaluation
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="lg:w-2/4">
-						<img
-							src={geologicalReservoir}
-							alt="Geological and Studies Services"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
 					</div>

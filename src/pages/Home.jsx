@@ -33,7 +33,7 @@ export default function Home() {
 						Expert Consultancy for a Sustainable Energy Future
 					</h1>
 					<p className="text-lg md:text-xl mb-8 max-w-2xl text-gray-100">
-						Strategic solutions for the oil, gas, and mineral industries
+						Strategic solutions for the oil gas, and mineral capitals
 					</p>
 					<Link
 						to="/consultingservices"
@@ -55,8 +55,8 @@ export default function Home() {
 						<p className="text-gray-700 leading-relaxed text-lg">
 							Welcome to
 							<strong> Astral Energy Services Private Limited (AES)</strong> —
-							your trusted consulting partner in the oil, gas, and mineral
-							industries. We offer strategic insights, technical expertise, and
+							your trusted consulting partner in the oil gas, and mineral
+							capitals. We offer strategic insights, technical expertise, and
 							data-driven solutions to help clients optimize exploration,
 							drilling, and resource management. With a team of seasoned
 							professionals, we empower energy companies to make informed
@@ -91,11 +91,10 @@ export default function Home() {
 							<div className="bg-[#2694AC] h-2"></div>
 							<div className="p-6">
 								<h3 className="text-xl font-semibold text-gray-800 mb-3">
-									Drilling Advisory
+									Mineral Exploration Service
 								</h3>
 								<p className="text-gray-600">
-									End-to-end consulting for well planning, safety compliance,
-									and operational efficiency.
+									Field Geology, Geophysical and Pre-Feasibility Studies.
 								</p>
 							</div>
 						</div>
@@ -126,22 +125,20 @@ export default function Home() {
 				</section>
 
 				{/* Testimonials Section */}
-				<section className="mb-12">
+				{/* <section className="mb-12">
 					<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center">
 						Client Testimonials
 					</h2>
 
 					<div className="grid md:grid-cols-2 gap-8">
-						{/* Testimonial 1 */}
+						Testimonial 1
 						<div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 max-w-lg mx-auto transition-all duration-300 hover:shadow-xl">
 							<div className="flex mb-6">
 								<div className="flex-shrink-0 mr-4">
-									{/* <div className="w-12 h-12 bg-[#2694AC] rounded-full flex items-center justify-center text-white font-bold text-xl"> */}
 									<img
 										className="w-12 h-12 bg-[#2694AC] rounded-full flex items-center justify-center text-white font-bold text-xl"
 										src={headshot1}
 									/>
-									{/* </div> */}
 								</div>
 								<div>
 									<p className="text-gray-800 font-semibold text-lg">
@@ -180,7 +177,7 @@ export default function Home() {
 							</div>
 						</div>
 
-						{/* Testimonial 2 */}
+						Testimonial 2
 						<div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 max-w-lg mx-auto transition-all duration-300 hover:shadow-xl">
 							<div className="flex mb-6">
 								<div className="flex-shrink-0 mr-4">
@@ -224,7 +221,7 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> */}
 
 				{/* Certificates Section - NEW */}
 				<section className="py-10 mb-12">
