@@ -114,8 +114,7 @@ export default function About() {
 				</div>
 
 				{/* Team Profiles */}
-				<div className="mt-12 grid md:grid-cols-3 gap-6">
-					{/* Team Member Card - Dr. Asif Ahsan */}
+				{/* <div className="mt-12 grid md:grid-cols-3 gap-6">
 					<div className="bg-white rounded-lg shadow p-6 text-center">
 						<img
 							src={DrAsifAhsan17}
@@ -130,7 +129,6 @@ export default function About() {
 						</p>
 					</div>
 
-					{/* Team Member Card - Atiq ur Rehman */}
 					<div className="bg-white rounded-lg shadow p-6 text-center">
 						<img
 							src={AtiqUrRehman13}
@@ -145,7 +143,6 @@ export default function About() {
 						</p>
 					</div>
 
-					{/* Team Member Card - Muhammad Azhar */}
 					<div className="bg-white rounded-lg shadow p-6 text-center">
 						<img
 							src={MAzhar1}
@@ -159,7 +156,7 @@ export default function About() {
 							projects.
 						</p>
 					</div>
-				</div>
+				</div> */}
 				<div className="mt-8 text-center">
 					<Link
 						to="/ourteam"
@@ -171,7 +168,7 @@ export default function About() {
 			</section>
 
 			{/* HSE Section */}
-			<section className="py-10 mb-12">
+			<section className="pb-10 mb-12">
 				<div className="flex flex-col md:flex-row-reverse gap-8 items-center">
 					<div className="md:w-1/2">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">

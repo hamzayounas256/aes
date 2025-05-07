@@ -33,7 +33,7 @@ export default function Home() {
 						Expert Consultancy for a Sustainable Energy Future
 					</h1>
 					<p className="text-lg md:text-2xl mb-8 max-w-2xl text-gray-100">
-						Strategic Solutions For The Oil Gas & Mineral Capitals
+						Strategic Solutions For The Oil Gas & Mineral
 					</p>
 					<Link
 						to="/consultingservices"
@@ -55,12 +55,12 @@ export default function Home() {
 						<p className="text-gray-700 leading-relaxed text-lg">
 							Welcome to
 							<strong> Astral Energy Services Private Limited (AES)</strong> —
-							your trusted consulting partner in the oil gas and mineral
-							capitals. We offer strategic insights, technical expertise, and
-							data-driven solutions to help clients optimize exploration,
-							drilling, and resource management. With a team of seasoned
-							professionals, we empower energy companies to make informed
-							decisions and achieve sustainable growth.
+							your trusted consulting partner in the Oil Gas and Mineral. We
+							offer strategic insights, technical expertise, and data-driven
+							solutions to help clients optimize exploration, drilling, and
+							resource management. With a team of seasoned professionals, we
+							empower energy companies to make informed decisions and achieve
+							sustainable growth.
 						</p>
 					</div>
 				</section>
