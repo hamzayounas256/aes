@@ -4,12 +4,13 @@ import heroImage from "../assets/hero.png";
 // import headshot1 from "../assets/headshot1.jpeg";
 // import headshot2 from "../assets/headshot2.jpeg";
 // import user from "../assets/user.png";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 // Import certificate images - adjust paths as needed
 import incorporationCertificate from "../assets/IncorporationLetter.jpg"; // Image 1
 import fbrCertificate from "../assets/FBR.jpg"; // Image 2
 
 export default function Home() {
+	const navigate = useNavigate();
 	document.title = "AES | Home";
 
 	return (
@@ -33,7 +34,7 @@ export default function Home() {
 						Expert Consultancy for a Sustainable Energy Future
 					</h1>
 					<p className="text-lg md:text-2xl mb-8 max-w-2xl text-gray-100">
-						Strategic Solutions For The Oil Gas & Mineral
+						Strategic Solutions For The Mineral and Oil & Gas
 					</p>
 					<Link
 						to="/consultingservices"
@@ -55,7 +56,7 @@ export default function Home() {
 						<p className="text-gray-700 leading-relaxed text-lg">
 							Welcome to
 							<strong> Astral Energy Services Private Limited (AES)</strong> —
-							your trusted consulting partner in the Oil Gas and Mineral. We
+							your trusted consulting partner in the Mineral and Oil & Gas. We
 							offer strategic insights, technical expertise, and data-driven
 							solutions to help clients optimize exploration, drilling, and
 							resource management. With a team of seasoned professionals, we
@@ -71,18 +72,20 @@ export default function Home() {
 						Key Consulting Areas
 					</h2>
 
-					<div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+					<div className="grid md:grid-cols-2 gap-6 lg:gap-8">
 						{/* Card 1 */}
 						<div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow">
 							<div className="bg-[#2694AC] h-2"></div>
 							<div className="p-6">
-								<h3 className="text-xl font-semibold text-gray-800 mb-3">
-									Seismic Data Consulting
+								<h3
+									className="text-xl font-semibold text-gray-800 mb-3 cursor-pointer"
+									onClick={() => navigate("/mineralexploration")}
+								>
+									Mineral Exploration Services
 								</h3>
-								<p className="text-gray-600">
-									Expert guidance on data acquisition, processing, and
-									interpretation.
-								</p>
+								{/* <p className="text-gray-600">
+									Field Geology, Geophysical and Pre-Feasibility Studies.
+								</p> */}
 							</div>
 						</div>
 
@@ -90,33 +93,23 @@ export default function Home() {
 						<div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow">
 							<div className="bg-[#2694AC] h-2"></div>
 							<div className="p-6">
-								<h3 className="text-xl font-semibold text-gray-800 mb-3">
-									Mineral Exploration Service
+								<h3
+									className="text-xl font-semibold text-gray-800 mb-3 cursor-pointer"
+									onClick={() => navigate("/oilgas")}
+								>
+									Oil And Gas Constancy Services
 								</h3>
-								<p className="text-gray-600">
-									Field Geology, Geophysical and Pre-Feasibility Studies.
-								</p>
-							</div>
-						</div>
-
-						{/* Card 3 */}
-						<div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow">
-							<div className="bg-[#2694AC] h-2"></div>
-							<div className="p-6">
-								<h3 className="text-xl font-semibold text-gray-800 mb-3">
-									Geological Studies & Analysis
-								</h3>
-								<p className="text-gray-600">
+								{/* <p className="text-gray-600">
 									In-depth reservoir evaluation, geochemistry analysis, and
 									feasibility studies.
-								</p>
+								</p> */}
 							</div>
 						</div>
 					</div>
 
 					<div className="mt-8 text-center">
 						<Link
-							to="/consultingservices"
+							to="/oilgas"
 							className="inline-block px-6 py-3 bg-[#2694AC] text-white font-medium rounded-md hover:bg-[#2694AC] transition-colors"
 						>
 							Learn More About Our Services →

@@ -9,7 +9,8 @@ export default function Navbar() {
 	const navItems = [
 		{ name: "Home", path: "/" },
 		{ name: "About Us", path: "/about" },
-		{ name: "Our Services", path: "/consultingservices" },
+		{ name: "Mineral Exploration Services", path: "/mineralexploration" },
+		{ name: "Oil & Gas Consultants", path: "/oilgas" },
 		{ name: "Research", path: "/researchinsight" },
 		{ name: "Contact Us", path: "/contact" },
 	];

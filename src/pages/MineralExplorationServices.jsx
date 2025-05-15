@@ -1,15 +1,15 @@
 import React from "react";
 import consultingImage from "../assets/consultingservices.jpg";
-import seismicData from "../assets/seismic_data.jpg";
-import drillingAdvisory from "../assets/drilling_advisory.jpg";
-import geologicalReservoir from "../assets/geological_reservoir.png";
+// import seismicData from "../assets/seismic_data.jpg";
+// import drillingAdvisory from "../assets/drilling_advisory.jpg";
+// import geologicalReservoir from "../assets/geological_reservoir.png";
 import consult from "../assets/consult.jpg";
 import fillCircle from "../assets/fillCircle.png";
 import emptyCircle from "../assets/emptyCircle.png";
 import { Link } from "react-router";
 
-export default function ConsultingServices() {
-	document.title = "AES | Consulting Services";
+export default function MineralExplorationServices() {
+	document.title = "AES | Mineral Exploration Services";
 
 	return (
 		<div className="pt-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
@@ -26,10 +26,10 @@ export default function ConsultingServices() {
 				</div>
 				<div className="relative z-10 max-w-4xl mx-auto text-center">
 					<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-						Services
+						Mineral Exploration Services
 					</h1>
 					<p className="text-lg md:text-xl text-white mb-8">
-						Expert solutions tailored to the Oil, Gas and Mineral
+						Expert solutions tailored to the Minerals
 						{/* , and mineral industries */}
 					</p>
 					<div className="h-1 w-32 bg-[#2694AC] mx-auto"></div>
@@ -49,49 +49,10 @@ export default function ConsultingServices() {
 				</div>
 			</section>
 
-			{/* Seismic Data Consulting */}
-			<section className="mb-10">
-				<div className="flex flex-col lg:flex-row gap-8">
-					<div className="lg:w-2/4 pl-4">
-						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-							Consultancy Services
-						</h2>
-						<div className="space-y-6">
-							<div>
-								<h3 className="text-xl font-medium text-[#2694AC] mb-3">
-									Consultancy Services Include:
-								</h3>
-								<ul className="text-gray-700 space-y-2 pl-5">
-									<li className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={fillCircle} /> 2D/3D Seismic
-										Data Acquisition QC
-									</li>
-									<li className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={fillCircle} /> 2D/3D Seismic
-										Data Processing QC
-									</li>
-									<li className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={fillCircle} />
-										Gravity/Magnetic QC
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div className="lg:w-3/4">
-						<img
-							src={seismicData}
-							alt="Seismic Data Consulting"
-							className="w-full h-auto rounded-lg shadow-md"
-						/>
-					</div>
-				</div>
-			</section>
-
 			{/* Mineral Exploration Services*/}
 			<section className="mb-10">
 				<div className="flex flex-col lg:flex-row gap-8">
-					<div className="lg:w-3/4">
+					<div className="lg:w-3/5">
 						<img
 							src={consult}
 							alt="Geological and Studies Services"
@@ -100,41 +61,114 @@ export default function ConsultingServices() {
 					</div>
 					<div className="lg:w-2/4">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-							Mineral Exploration Services
+							Geological and Geophysical Surveys for Mineral deposits (CRIRSCO,
+							JORC, NI-43-101 Guidelines)
 						</h2>
 						<div className="text-gray-700 space-y-4">
-							<h3 className="text-xl font-medium text-[#2694AC] mb-2">
+							{/* <h3 className="text-xl font-medium text-[#2694AC] mb-2">
 								Mineral Services Include (CRIRSCO Code):
-							</h3>
+							</h3> */}
 
 							<div className="pl-5">
 								<p className="font-medium mb-1 flex gap-2 items-center">
-									<img className="w-2 h-2" src={fillCircle} /> Field Geology
+									<img className="w-2 h-2" src={fillCircle} /> Desk Top Study
 								</p>
 								<p className="font-medium mb-1 flex gap-2 items-center">
 									<img className="w-2 h-2" src={fillCircle} />
-									Scoping Study
+									Scouting of the Lease Area
 								</p>
 
 								<p className="font-medium mb-1 flex gap-2 items-center">
 									<img className="w-2 h-2" src={fillCircle} />
-									Geophysical Study (Magnetic, IP, Resistivity)
+									Geological Survey
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />{" "}
+									Lithological Mapping
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} /> Structural
+									Mapping
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} /> Geochemical
+									Sampling
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />
+									Mineralogical Studies
 								</p>
 								<p className="font-medium mb-1 flex gap-2 items-center">
 									<img className="w-2 h-2" src={fillCircle} />
-									Core Cutting
+									Remote Sensing Surveys (Satellite, Drone or aerial data) study
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />{" "}
+									Multispectral and Hyperspectral Imaging
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} /> LiDAR
+									(Light Detection and Ranging)
 								</p>
 								<p className="font-medium mb-1 flex gap-2 items-center">
 									<img className="w-2 h-2" src={fillCircle} />
-									Pre-Feasibility Study
+									Geophysical Surveys
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />
+									Magnetic Survey
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} /> Gravity
+									Survey
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />
+									Electromagnetic (EM) Survey
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} /> Induced
+									Polarization (IP) Survey
 								</p>
 								<p className="font-medium mb-1 flex gap-2 items-center">
 									<img className="w-2 h-2" src={fillCircle} />
-									Reserve Estimation and Certification
+									Drilling and Sampling
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />
+									Core Drilling
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />
+									Trenching and Pitting
 								</p>
 								<p className="font-medium mb-1 flex gap-2 items-center">
 									<img className="w-2 h-2" src={fillCircle} />
-									Bankable documents
+									Environmental and Structural Considerations
+								</p>
+								<p className="font-medium mb-1 flex gap-2 items-center">
+									<img className="w-2 h-2" src={fillCircle} />
+									Recommended Approach
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />
+									Initial Phase
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />
+									Second Phase
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />
+									Final Phase
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />
+									Gantt Chart
+								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} />
+									Certification by M/s______.
 								</p>
 							</div>
 						</div>
@@ -142,16 +176,16 @@ export default function ConsultingServices() {
 				</div>
 			</section>
 
-			<section className="py-10 mb-16">
+			{/* <section className="py-10 mb-16">
 				<div className="flex flex-col lg:flex-row gap-8">
 					<div className="lg:w-2/4">
-						{/* <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
+						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
 							Geological Studies Services
-						</h2> */}
+						</h2>
 						<div className="text-gray-700 space-y-4">
-							{/* <h3 className="text-xl font-medium text-[#2694AC] mb-2">
+							<h3 className="text-xl font-medium text-[#2694AC] mb-2">
 								Studies Services Include:
-							</h3> */}
+							</h3>
 
 							<div className="mt-5 pl-5">
 								<p className="font-medium mb-1 flex gap-3 items-center">
@@ -250,42 +284,7 @@ export default function ConsultingServices() {
 						/>
 					</div>
 				</div>
-			</section>
-
-			{/* Drilling Advisory */}
-			<section className="py-6 mb-10">
-				<div className="flex flex-col lg:flex-row gap-4">
-					<div className="lg:w-3/4">
-						<img
-							src={drillingAdvisory}
-							alt="Drilling Services"
-							className="w-full h-auto rounded-lg shadow-md"
-						/>
-					</div>
-					<div className="lg:w-2/4 lg:pl-20 pl-4">
-						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-3">
-							Drilling Services
-						</h2>
-						<div>
-							<h3 className="text-xl font-medium text-[#2694AC] mb-2">
-								Drilling Services Include:
-							</h3>
-							<ul className="text-gray-700 space-y-1 pl-2">
-								<li className="flex gap-2 items-center">
-									<img className="w-2 h-2" src={fillCircle} /> Wells Site
-									Geologist
-								</li>
-								<li className="flex gap-2 items-center">
-									<img className="w-2 h-2" src={fillCircle} /> Company Man
-								</li>
-								<li className="flex gap-2 items-center">
-									<img className="w-2 h-2" src={fillCircle} /> Mud Engineer
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
+			</section> */}
 
 			{/* CTA Section */}
 			<section className="py-12 bg-[#2694AC] text-white rounded-lg mb-12 px-6 md:px-10">
