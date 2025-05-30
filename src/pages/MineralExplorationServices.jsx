@@ -1,9 +1,12 @@
 import React from "react";
-import consultingImage from "../assets/consultingservices.jpg";
+import consultingImage from "../assets/mineralExplorationServices.png";
 // import seismicData from "../assets/seismic_data.jpg";
 // import drillingAdvisory from "../assets/drilling_advisory.jpg";
 // import geologicalReservoir from "../assets/geological_reservoir.png";
-import consult from "../assets/consult.jpg";
+import mes1 from "../assets/mes1.jpg";
+import mes2 from "../assets/mes2.jpg";
+import mes3 from "../assets/mes3.jpg";
+import mes4 from "../assets/mes4.jpg";
 import fillCircle from "../assets/fillCircle.png";
 import emptyCircle from "../assets/emptyCircle.png";
 import { Link } from "react-router";
@@ -44,7 +47,7 @@ export default function MineralExplorationServices() {
 						with clients, offering superior field expertise and
 						consultancy/Studies services. Our personnel have extensive
 						experience in Consultancy/Studies roles across diverse projects for
-						national and international oil and gas companies.
+						national and international Mineral Exploration companies.
 					</p>
 				</div>
 			</section>
@@ -52,13 +55,6 @@ export default function MineralExplorationServices() {
 			{/* Mineral Exploration Services*/}
 			<section className="mb-10">
 				<div className="flex flex-col lg:flex-row gap-8">
-					<div className="lg:w-3/5">
-						<img
-							src={consult}
-							alt="Geological and Studies Services"
-							className="w-full h-auto rounded-lg shadow-md"
-						/>
-					</div>
 					<div className="lg:w-2/4">
 						<h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
 							Geological and Geophysical Surveys for Mineral deposits (CRIRSCO,
@@ -66,10 +62,10 @@ export default function MineralExplorationServices() {
 						</h2>
 						<div className="text-gray-700 space-y-4">
 							{/* <h3 className="text-xl font-medium text-[#2694AC] mb-2">
-								Mineral Services Include (CRIRSCO Code):
-							</h3> */}
+					Mineral Services Include (CRIRSCO Code):
+				</h3> */}
 
-							<div className="pl-5">
+							<div className="pl-5 text-lg">
 								<p className="font-medium mb-1 flex gap-2 items-center">
 									<img className="w-2 h-2" src={fillCircle} /> Desk Top Study
 								</p>
@@ -130,6 +126,10 @@ export default function MineralExplorationServices() {
 									<img className="ms-2 w-2 h-2" src={emptyCircle} /> Induced
 									Polarization (IP) Survey
 								</p>
+								<p className="flex gap-3 items-center">
+									<img className="ms-2 w-2 h-2" src={emptyCircle} /> Seismic
+									Reflection/Refraction
+								</p>
 								<p className="font-medium mb-1 flex gap-2 items-center">
 									<img className="w-2 h-2" src={fillCircle} />
 									Drilling and Sampling
@@ -168,9 +168,34 @@ export default function MineralExplorationServices() {
 								</p>
 								<p className="flex gap-3 items-center">
 									<img className="ms-2 w-2 h-2" src={emptyCircle} />
-									Certification by M/s______.
+									Certification by M/s Canadian Experts/Pakistani Experts
 								</p>
 							</div>
+						</div>
+					</div>
+					<div className="lg:w-1/3">
+						{/* 4 Images arranged vertically */}
+						<div className="space-y-4">
+							<img
+								src={mes1}
+								alt="Geological and Studies Services"
+								className="w-full h-48 object-cover rounded-lg shadow-md"
+							/>
+							<img
+								src={mes2}
+								alt="Geological Survey Equipment"
+								className="w-full h-48 object-cover rounded-lg shadow-md"
+							/>
+							<img
+								src={mes3}
+								alt="Mineral Exploration"
+								className="w-full h-48 object-cover rounded-lg shadow-md"
+							/>
+							<img
+								src={mes4}
+								alt="Geophysical Surveys"
+								className="w-full h-48 object-cover rounded-lg shadow-md"
+							/>
 						</div>
 					</div>
 				</div>

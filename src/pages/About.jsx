@@ -5,7 +5,7 @@ import MAzhar1 from "../assets/1MAzhar.png";
 import AtiqUrRehman13 from "../assets/13AttiqurRehman.png";
 import DrAsifAhsan17 from "../assets/17DrAsifAhsan.png";
 import leadershipandteam from "../assets/leadershipandteam.png";
-import aboutImage from "../assets/about.jpg";
+import aboutImage from "../assets/aboutusFrame.png";
 
 export default function About() {
 	document.title = "AES | About us";
@@ -94,9 +94,9 @@ export default function About() {
 							Leadership & Team
 						</h2>
 						<p className="text-gray-700 mb-6">
-							Our team consists of senior consultants, geologists, and technical
-							advisors with global experience and specialized expertise in the
-							energy sector.
+							Our team consists of senior consultants, geologists, geophysicists
+							and technical advisors with global experience and specialized
+							expertise in the energy sector.
 						</p>
 						<p className="text-gray-700">
 							Each member brings a unique perspective and deep industry

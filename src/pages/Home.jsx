@@ -33,9 +33,9 @@ export default function Home() {
 					<h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 max-w-4xl">
 						Expert Consultancy for a Sustainable Energy Future
 					</h1>
-					<p className="text-lg md:text-2xl mb-8 max-w-2xl text-gray-100">
+					{/* <p className="text-lg md:text-2xl mb-8 max-w-2xl text-gray-100">
 						Strategic Solutions For The Mineral and Oil & Gas
-					</p>
+					</p> */}
 					<Link
 						to="/consultingservices"
 						className="px-8 py-3 bg-[#2694AC] text-white font-medium rounded-md hover:bg-[#2694AC] transition-colors text-lg"
@@ -56,12 +56,12 @@ export default function Home() {
 						<p className="text-gray-700 leading-relaxed text-lg">
 							Welcome to
 							<strong> Astral Energy Services Private Limited (AES)</strong> —
-							your trusted consulting partner in the Mineral and Oil & Gas. We
-							offer strategic insights, technical expertise, and data-driven
-							solutions to help clients optimize exploration, drilling, and
-							resource management. With a team of seasoned professionals, we
-							empower energy companies to make informed decisions and achieve
-							sustainable growth.
+							your trusted Studies and Consulting partner. We offer strategic
+							insights, technical expertise, and data-driven solutions to help
+							clients optimize
+							<strong> geological survey, geophysical survey</strong> management.
+							With a team of seasoned professionals, we empower energy companies
+							to make informed decisions and achieve sustainable growth.
 						</p>
 					</div>
 				</section>
@@ -97,7 +97,7 @@ export default function Home() {
 									className="text-xl font-semibold text-gray-800 mb-3 cursor-pointer"
 									onClick={() => navigate("/oilgas")}
 								>
-									Oil And Gas Constancy Services
+									Consultancy Services
 								</h3>
 								{/* <p className="text-gray-600">
 									In-depth reservoir evaluation, geochemistry analysis, and
