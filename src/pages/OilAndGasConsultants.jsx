@@ -63,13 +63,16 @@ export default function OilAndGasConsultants() {
 								</h3>
 								<ul className="text-gray-700 space-y-2 pl-5">
 									<li className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={fillCircle} /> Structural
-										geology, Structural forward modeling, Restoration, and
-										petroleum systems modeling
+										<img className="w-2 h-2" src={fillCircle} />
+										2D/3D Seismic Data Acquisition QC
 									</li>
 									<li className="flex gap-2 items-center">
-										<img className="w-2 h-2" src={fillCircle} />{" "}
-										Geochemistry/Basin Modeling
+										<img className="w-2 h-2" src={fillCircle} /> 2D/3D Seismic
+										Data Processing QC
+									</li>
+									<li className="flex gap-2 items-center">
+										<img className="w-2 h-2" src={fillCircle} />
+										Gravity/Magnetic QC
 									</li>
 								</ul>
 							</div>

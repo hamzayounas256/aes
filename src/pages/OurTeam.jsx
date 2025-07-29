@@ -15,55 +15,120 @@ import SaghirAhmedSiddiqui15 from "../assets/15SaghirAhmedSiddiqui.png";
 import DrSyedIrfanUllahHashmi16 from "../assets/16DrSyedIrfanUllahHashmi.png";
 import DrAsifAhsan17 from "../assets/17DrAsifAhsan.png";
 import NawazBugti18 from "../assets/18NawazBugti.png";
+import leadership_asifAhsan from "../assets/leadership_asifAhsan.png";
+import leadership_dilshadPathan from "../assets/leadership_dilshadPathan.png";
+import leadership_MuhammadHanifKhan from "../assets/leadership_MuhammadHanifKhan.jpg";
+import leadership_RafayKhan from "../assets/leadership_RafayKhan.jpg";
+import leadership_ShamsUlAabidin from "../assets/leadership_ShamsUlAabidin.png";
+import leadership_TayyabNaseer from "../assets/leadership_TayyabNaseer.png";
+import leadership_WardaYousaf from "../assets/leadership_WardaYousaf.png";
 import email from "../assets/user.png";
 
 // Team data organized by categories
 const teamData = {
-	seismic: [
+	leadership: [
 		{
 			id: 1,
+			name: "Muhammad Hanif Khan",
+			subdescription: "Independent Director",
+			description:
+				"M.Sc. Geophysics,More than 30 years of  experience in Oil & Gas in Pakistan, Kuwait, Oman, Angola and Qatar",
+			image: leadership_MuhammadHanifKhan,
+		},
+		{
+			id: 2,
+			name: "Shams Ul Aabidin",
+			subdescription: "Director",
+			description:
+				"29+ years' experience in the field of Oil Industry (Onshore/Offshore) in National (Pakistan) & International (Qatar, Oman, Sudan, Iran, Algeria, Angola and Iraq",
+			image: leadership_ShamsUlAabidin,
+		},
+		{
+			id: 3,
+			name: "Dr.Asif Ahsan",
+			subdescription: "Director",
+			description:
+				"Ph.D. (Geochemistry, Norway) 30+ experience in Oil & Gas industry as Petroleum Geochemist, Basin Analyst and Geologist. Worked in Pakistan, the UAE and the North Sea (Norway). Contributed in the (Libya, Algeria, Yemen, Iraq)",
+			image: leadership_asifAhsan,
+		},
+		{
+			id: 4,
+			name: "Muhammad Rafay Khan",
+			subdescription: "CEO",
+			description:
+				"International Diploma (New Castle University), BBA (Royal Holloway University of London)",
+			image: leadership_RafayKhan,
+		},
+		{
+			id: 5,
+			name: "Dilshad Pathan",
+			subdescription: "Business Development Manager",
+			description:
+				"M.Sc Physics 30 Years of Experience in Operating different institutions in Pakistan and United Kingdom",
+			image: leadership_dilshadPathan,
+		},
+		{
+			id: 6,
+			name: "Muhammad Tayyab Naseer",
+			subdescription: "Project Manager and Seismic Analyst",
+			description:
+				"M.sc, M.Phil. , Ph.D. (Geophysics) Reservoir Simulation l Thin-bed Analysis | Energy Research l Reservoir Modelling l Fracture Enhancement l Renewable Energies l Hydro-Geothermal Imaging l Carbon Sequestration [Silici-Clastic and Carbonates]",
+			image: leadership_TayyabNaseer,
+		},
+		{
+			id: 7,
+			name: "Warda Yousaf",
+			subdescription: "Director",
+			description:
+				"M.sc, M.Phil. Ph.D. Geophysics (Central South University, Hunan, China)",
+			image: leadership_WardaYousaf,
+		},
+	],
+	seismic: [
+		{
+			id: 8,
 			name: "Muhammad Azhar",
 			description:
 				"26+ years' experience in the field of Oil & Gas Exploration (Onshore/ Offshore) in National (Pakistan) & International (Oman, UAE, Sudan & Angola) 10 Years experience as a third-party seismic QC in Pakistan",
 			image: MAzhar1,
 		},
 		{
-			id: 2,
+			id: 9,
 			name: "Najam Azeez",
 			description:
 				"28+ years' experience in the field of Oil & Gas Exploration (Onshore/ Offshore) in National (Pakistan) & International (Saudi Arabia) 12 Years experience as a third-party seismic QC in Pakistan",
 			image: NajamAzeez2,
 		},
 		{
-			id: 3,
+			id: 10,
 			name: "Muhammad Khalid Khan",
 			description:
 				"28+ years' experience in the field of Oil & Gas Exploration (Onshore/ Offshore) in National (Pakistan) & International (Saudi Arabia, Sudan), 3rd-party seismic 15 Years",
 			image: email,
 		},
 		{
-			id: 4,
+			id: 11,
 			name: "Abbas Mehdi",
 			description:
 				"29+ years' experience in the field of Oil & Gas Exploration (Onshore/ Offshore) in National (Pakistan) & International (Saudi Arabia, Sudan, Angola, Ethiopia, Congo, Nigeria) 11 Years experience as a third-party seismic QC",
 			image: email,
 		},
 		{
-			id: 5,
+			id: 12,
 			name: "Adnan Khan",
 			description:
 				"25+ years' experience in the industry working as a Seismic QC and Data Processor. Having sufficient experience in Land and Transition Zone Crews using both Vibrosies and Dynamite also experienced in Seismic Acquisition and the training of others as a Seismic QCs. (Onshore/ Offshore) in National (Pakistan) & International ",
 			image: AdnanKhan5,
 		},
 		{
-			id: 6,
+			id: 13,
 			name: "M Sarfaraz",
 			description:
 				"18+ years' experience in the field of Oil & Gas Exploration 3 years' experience as a third-party seismic QC",
 			image: MSarfara6,
 		},
 		{
-			id: 7,
+			id: 14,
 			name: "Nazeer Ahmad",
 			description:
 				"18+ years' experience Exploration 3 years as a third-party seismic QC",
@@ -72,42 +137,42 @@ const teamData = {
 	],
 	drilling: [
 		{
-			id: 8,
+			id: 15,
 			name: "Hameed Ullah",
 			description:
 				"23+ years' experience in the field of Oil Industry (Onshore/Offshore) in National (Pakistan) & International (Iraq, Qatar) 16 Years experience as a Well site Geologist",
 			image: HameedUllah8,
 		},
 		{
-			id: 9,
+			id: 16,
 			name: "Shams Ul Aabidin",
 			description:
 				"29+ years' experience in the field of Oil Industry (Onshore/Offshore) in National (Pakistan) & International (Qatar, Oman, Sudan, Iran, Algeria, Angola and Iraq) 10 Years experience as a Well site Geologist 16 Year Sr Operations Geologist",
 			image: ShamsUlAabidin9,
 		},
 		{
-			id: 10,
+			id: 17,
 			name: "Ilyas Ahmad Khan",
 			description:
 				"24+ years' experience in the field of Oil Industry (Onshore/Offshore) in National (Pakistan) & International (Qatar, Iran, Iraq, Oman, Malaysia, KSA, UAE, Yemen, Turkey, Australia, Azerbaijan) 14 Years experience as a Well site Geologist",
 			image: ilyasAhmadKhan10,
 		},
 		{
-			id: 11,
+			id: 18,
 			name: "Shahid Saeed",
 			description:
 				"21+ years' experience in the field of Oil Industry (Onshore/Offshore) in National (Pakistan) & International (Qatar, Yemen, Libya, Saudi Arabia, Iraq) 14 Years experience as a Well site Geologist",
 			image: ShahidSaeed11,
 		},
 		{
-			id: 12,
+			id: 19,
 			name: "Amir Janan",
 			description:
 				"19+ years' experience in the field of Oil Industry (Onshore/Offshore) in National (Pakistan) & International (Iraq, Qatar). 10 Years experience as a Well site Geologist",
 			image: email,
 		},
 		{
-			id: 13,
+			id: 20,
 			name: "Atiq Ur Rehman",
 			subdescription: "(Company Man and Completion)",
 			description:
@@ -115,7 +180,7 @@ const teamData = {
 			image: AttiqurRehman13,
 		},
 		{
-			id: 14,
+			id: 21,
 			name: "Jamshed Ali Mughal",
 			subdescription: "(Company Man and Completion)",
 			description:
@@ -123,7 +188,7 @@ const teamData = {
 			image: JamshedAliMughal14,
 		},
 		{
-			id: 15,
+			id: 22,
 			name: "Saghir Ahmad Siddiqui",
 			subdescription: "(Company Man and Completion)",
 			description:
@@ -133,21 +198,21 @@ const teamData = {
 	],
 	studies: [
 		{
-			id: 16,
+			id: 23,
 			name: "Dr. Syed Irfan Ullah Hashmi",
 			description:
 				"He has a PhD degree in Geology from National Centre of Excellence (NCEG) in Geology University of Peshawar. Dr. Hashmi has more than 10 years professional experience in Minerals and Oil & Gas sectors of Pakistan as a consultant Geologist. Dr. Hashmi remained as Lead consultant, Geologist for various mineral explorations projects in Pakistan",
 			image: DrSyedIrfanUllahHashmi16,
 		},
 		{
-			id: 17,
+			id: 24,
 			name: "Dr. Asif Ahsan",
 			description:
 				"Over 30+ experience in Oil & Gas industry as Petroleum Geochemist, Basin Analyst and Geologist. Have delivered petroleum system analysis for hydrocarbon exploration and production of many basins in Pakistan, the UAE and the North Sea (Norway). Performed 2D basin modeling of Hazara Kashmir Syntaxis area and several 1D basin modeling in the Lower Indus Basin. Have contributed significantly in the international exploration portfolio evaluation (Libya, Algeria, Yemen, Iraq) and asset acquisition (Yemen and Iraq) ",
 			image: DrAsifAhsan17,
 		},
 		{
-			id: 18,
+			id: 25,
 			name: "Nawaz Bugti",
 			description:
 				"PhD. is a well-rounded and seasoned geoscientist with two decades of experience in various roles, including exploration, field development planning, regional geology, petroleum systems modeling, salt tectonics, and academic research in oil and gas. I have experience in the US Gulf of Mexico; I mapped the entire salt canopy of deepwater Gulf of Mexico; mapped the source rock acme distribution at basin scale in the Gulf of Mexico basin, prospectivity of Indian offshore basins in Mahanadi, West Bengal, SE Admana and North Sumatra basins. Key skills gained are structural geology, structural forward modeling, and restoration. Seismic interpretation, basin analysis, and petroleum systems modeling. I have extensive experience in geoscience software applications including Petrel, Petromod, Trinity, XCaliber, Kingdom Suite, ArcGIS Pro, and many more.",
@@ -208,6 +273,7 @@ const TeamCategory = ({ title, members }) => {
 			>
 				<h2 className="text-lg font-semibold">{title}</h2>
 			</div>
+
 			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 				{members.map((member) => (
 					<TeamMemberCard key={member.id} member={member} />
@@ -236,7 +302,7 @@ const OurTeam = () => {
 				</div>
 
 				{/* Team Category Tabs */}
-				{/* <div className="flex flex-wrap justify-center gap-2 mb-8">
+				<div className="flex flex-wrap justify-center gap-2 mb-8">
 					<button
 						onClick={() => setActiveTab("all")}
 						className={`px-4 py-2 rounded-md transition-colors ${
@@ -246,6 +312,16 @@ const OurTeam = () => {
 						}`}
 					>
 						All Teams
+					</button>
+					<button
+						onClick={() => setActiveTab("leadership")}
+						className={`px-4 py-2 rounded-md transition-colors ${
+							activeTab === "leadership"
+								? "bg-blue-600 text-white"
+								: "bg-gray-200 text-gray-700 hover:bg-gray-300"
+						}`}
+					>
+						Leadership
 					</button>
 					<button
 						onClick={() => setActiveTab("seismic")}
@@ -277,9 +353,13 @@ const OurTeam = () => {
 					>
 						Studies Team
 					</button>
-				</div> */}
+				</div>
 
-				{/* Team Categories */}
+				{/* Team Categories - Leadership first */}
+				{(activeTab === "all" || activeTab === "leadership") && (
+					<TeamCategory title="Leadership Team" members={teamData.leadership} />
+				)}
+
 				{(activeTab === "all" || activeTab === "seismic") && (
 					<TeamCategory
 						title="2D/3D Seismic Acquisition, Processing & Gravity/Magnetic QC Team"

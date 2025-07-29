@@ -5,7 +5,7 @@ import MAzhar1 from "../assets/1MAzhar.png";
 import AtiqUrRehman13 from "../assets/13AttiqurRehman.png";
 import DrAsifAhsan17 from "../assets/17DrAsifAhsan.png";
 import leadershipandteam from "../assets/leadershipandteam.png";
-import aboutImage from "../assets/aboutusFrame.png";
+import aboutImage from "../assets/about.jpg";
 
 export default function About() {
 	document.title = "AES | About us";

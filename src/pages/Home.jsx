@@ -59,7 +59,11 @@ export default function Home() {
 							your trusted Studies and Consulting partner. We offer strategic
 							insights, technical expertise, and data-driven solutions to help
 							clients optimize
-							<strong> geological survey, geophysical survey</strong> management.
+							<strong>
+								{" "}
+								geological survey, geophysical survey, exploration, drilling &
+								resource management.
+							</strong>
 							With a team of seasoned professionals, we empower energy companies
 							to make informed decisions and achieve sustainable growth.
 						</p>
